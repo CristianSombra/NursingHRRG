@@ -11,17 +11,17 @@ const Landing = () => {
                         <h1>View Landing</h1>
                         <div className="mb-3">
                             <Link to="/home">
-                                <button className="btn-custom">Inicio</button>
+                                <button className="btn-custom-landing">Inicio</button>
                             </Link>
                         </div>
                         <div className="mb-3">
                             <Link to="/updates">
-                                <button className="btn-custom">Capacitación</button>
+                                <button className="btn-custom-landing">Capacitación</button>
                             </Link>
                         </div>
                         <div>
                             <Link to="/licences">
-                                <button className="btn-custom">Licencias</button>
+                                <button className="btn-custom-landing">Licencias</button>
                             </Link>
                         </div>
                     </div>

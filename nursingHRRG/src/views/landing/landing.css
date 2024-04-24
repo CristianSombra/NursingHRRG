@@ -15,7 +15,7 @@
 }
 
 
-.btn-custom {
+.btn-custom-landing {
     text-decoration: none;
     text-align: center;
     font-size: 20px;
@@ -29,7 +29,7 @@
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.btn-custom:hover {
+.btn-custom-landing:hover {
     color: white;
     background-color: rgb(255, 157, 0);
 }
