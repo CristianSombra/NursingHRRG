@@ -111,6 +111,7 @@ const Updates = () => {
             
             
                 </div>
+                
             <ScrollTop/>
         </div>
     );
