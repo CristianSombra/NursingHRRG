@@ -3,6 +3,8 @@ import bannerUpdates from '../../assets/bannerupdate.jpg';
 import bannerUpdatesMobile from '../../assets/bannerupdatemobile.jpg';
 import card1 from '../../assets/cardupdate1.png';
 import card2 from '../../assets/cardupdate2.png';
+import card3 from '../../assets/cardupdate3.png';
+import card4 from '../../assets/cardupdate4.png';
 import ScrollTop from '../../components/scrolltop/scrollTop';
 import './updates.css';
 
@@ -83,7 +85,7 @@ const Updates = () => {
                             <div className="row d-flex justify-content-around mx-auto">
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
                                     <div className="card">
-                                        <img src={card1} className="card-img-top" alt="..."/>
+                                        <img src={card3} className="card-img-top" alt="..."/>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
                                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -94,7 +96,7 @@ const Updates = () => {
 
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
                                     <div className="card">
-                                        <img src={card2} className="card-img-top" alt="..."/>
+                                        <img src={card4} className="card-img-top" alt="..."/>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
                                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
