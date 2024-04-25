@@ -42,7 +42,7 @@
 }
 
 
-/* Botón Carrusel */
+/* Sección Carrusel */
 
 .btn-custom-home {
     text-decoration: none;
@@ -67,6 +67,14 @@
 .btn-custom-home:hover {
     color: white;
     background-color: rgb(255, 157, 0);
+}
+
+
+/* Sección Novedades */
+
+.img-custom-home {
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 
