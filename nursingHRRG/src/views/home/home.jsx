@@ -5,6 +5,9 @@ import bannerHomeMobile from '../../assets/bannerhomemobile.jpg';
 import img1 from '../../assets/img1.png';
 import img2 from '../../assets/img1.png';
 import img3 from '../../assets/img1.png';
+import stand1 from '../../assets/stand1.png';
+import card1 from '../../assets/card1.png'
+import card2 from '../../assets/card2.png'
 import './home.css';
 
 const Home = () => {
@@ -95,32 +98,61 @@ const Home = () => {
             </section>
 
 
+            {/* Sección Novedades */}
+            <section className="container">
+                <div className="row my-5 d-flex justify-content-center">
+                <h3 className="fw-bold">Novedades</h3>
+                    <div className="col-12 col-md-8 col-lg-6">
+                        <img src={stand1} className="img-fluid img-custom-home my-3" alt="" />
+                        <h5 className="fw-bold">Semana de presentación de stands de Enfermería</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem itaque totam voluptate! Doloremque aliquam expedita earum quod? Libero, minus.</p>
+                    </div>
 
+                    <div className="col-12 col-md-8 col-lg-4">
+                        <div className="row">
+
+                            <div className="col-12">
+                                <div className="row align-items-center">
+                                    <div className="col-12 col-lg-6 my-3">
+                                        <img src={card1} className="img-fluid img-custom-home" alt="" />
+                                    </div>
+                                    <div className="col-12 col-lg-6">
+                                        <h5 className="fw-bold">Ingreso a planta</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dignissimos?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12">
+                                <div className="row align-items-center">
+                                    <div className="col-12 col-lg-6 my-3">
+                                        <img src={card2} className="img-fluid img-custom-home" alt="" />
+                                    </div>
+                                    <div className="col-12 col-lg-6">
+                                        <h5 className="fw-bold">Actividad en el RAM</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dignissimos?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
             
-            <div className="row my-5 d-flex justity-content-center">
-                <div className="col">
-                    <h1>Texto de relleno</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quaerat qui laboriosam unde necessitatibus rerum numquam. Ratione, ipsum magnam dicta eveniet quidem tempore assumenda expedita totam odit sequi rerum nesciunt omnis enim. Animi quae eos, ex repellendus voluptas saepe ducimus esse perspiciatis sit expedita culpa quia accusamus similique consectetur necessitatibus.</p>
+            
+            {/* Sección Preguntas frecuentes */}
+            <section className="container">
+                <div className="row my-5 d-flex justity-content-center">
+                <h3 className="fw-bold">Preguntas frecuentes</h3>
+
+                    <div className="col-12 col-md-8 col-lg-6">
+                    </div>
                 </div>
-            </div>
-            <div className="row my-5 d-flex justity-content-center">
-                <div className="col">
-                    <h1>Texto de relleno</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quaerat qui laboriosam unde necessitatibus rerum numquam. Ratione, ipsum magnam dicta eveniet quidem tempore assumenda expedita totam odit sequi rerum nesciunt omnis enim. Animi quae eos, ex repellendus voluptas saepe ducimus esse perspiciatis sit expedita culpa quia accusamus similique consectetur necessitatibus.</p>
-                </div>
-            </div>
-            <div className="row my-5 d-flex justity-content-center">
-                <div className="col">
-                    <h1>Texto de relleno</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quaerat qui laboriosam unde necessitatibus rerum numquam. Ratione, ipsum magnam dicta eveniet quidem tempore assumenda expedita totam odit sequi rerum nesciunt omnis enim. Animi quae eos, ex repellendus voluptas saepe ducimus esse perspiciatis sit expedita culpa quia accusamus similique consectetur necessitatibus.</p>
-                </div>
-            </div>
-            <div className="row my-5 d-flex justity-content-center">
-                <div className="col">
-                    <h1>Texto de relleno</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quaerat qui laboriosam unde necessitatibus rerum numquam. Ratione, ipsum magnam dicta eveniet quidem tempore assumenda expedita totam odit sequi rerum nesciunt omnis enim. Animi quae eos, ex repellendus voluptas saepe ducimus esse perspiciatis sit expedita culpa quia accusamus similique consectetur necessitatibus.</p>
-                </div>
-            </div>
+
+            </section>
+
             <ScrollTop/>
         </div>
 
