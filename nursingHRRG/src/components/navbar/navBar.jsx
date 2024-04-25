@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import logoNav from '../../assets/logoNav.png';
+import logoNav from '../../assets/logonav.png';
 import "./navBar.css";
 
 const Navbar = () => {
