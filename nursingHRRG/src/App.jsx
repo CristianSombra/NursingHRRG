@@ -1,5 +1,7 @@
 import React from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Navbar, Footer } from './components/index';
@@ -28,6 +30,7 @@ function App() {
         <Route exact path="/licences" element={<Licences />} />
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
+      <ToastContainer />
       {showFooter && <Footer />}
     </div>
   );
