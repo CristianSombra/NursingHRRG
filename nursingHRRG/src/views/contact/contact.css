@@ -29,6 +29,57 @@
 }
 
 
+/* Formulario  */
+
+
+.custom-input {
+    width: 100%;
+    background: none;
+    color: black;
+    font-size: 1rem;
+    padding: .6rem .3rem;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    border-bottom: 1px solid rgb(2, 145, 255);
+}
+
+.custom-input:focus + .custom-label,
+.custom-input:not(:placeholder-shown) + .custom-label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: black;
+}
+
+.custom-label {
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+
+
+.custom-area {
+    height: 192px;
+}
+
+.btn-contact{
+    color: rgb(246, 220, 73);
+    border: 1px solid rgb(246, 220, 73);
+    transition: all 0.3s ease;
+    width: 100px;
+}
+
+.btn-contact:hover {
+    background-color: rgb(246, 220, 73);
+}
+
+
+
+
 @media (max-width: 768px) {
     .container-contact-title {
         width: 100%;
