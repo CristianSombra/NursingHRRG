@@ -11,14 +11,14 @@ import './updates.css';
 const Updates = () => {
     return(
         
-        <div className="container-fluid">
+        <div className="container-fluid container-updates">
 
                 {/* Sección Banner Updates */}
                 <div className="container">
                     <div className="row my-5 d-flex justify-content-center position-relative d-none d-md-flex">
                         <div className="col">
-                            <div className="orange-rectangle"></div>
-                            <div className="blue-rectangle"></div>
+                            <div className="orange-rectangle-updates"></div>
+                            <div className="blue-rectangle-updates"></div>
                             <div className="image-container-updates">
                                 <img src={bannerUpdates} className="img-fluid col-12" alt="" />
                             </div>
@@ -54,7 +54,7 @@ const Updates = () => {
                             <h4 className="fw-bold text-muted my-3">Capacitaciones mes de Mayo</h4>
                             <div className="row d-flex justify-content-around mx-auto">
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
-                                    <div className="card">
+                                    <div className="card card-custom">
                                         <img src={card1} className="card-img-top" alt="..."/>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
@@ -65,7 +65,7 @@ const Updates = () => {
                                 </div>
 
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
-                                    <div className="card">
+                                    <div className="card card-custom">
                                         <img src={card2} className="card-img-top" alt="..."/>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
@@ -84,7 +84,7 @@ const Updates = () => {
                         </div>
                             <div className="row d-flex justify-content-around mx-auto">
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
-                                    <div className="card">
+                                    <div className="card card-custom">
                                         <img src={card3} className="card-img-top" alt="..."/>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
@@ -95,7 +95,7 @@ const Updates = () => {
                                 </div>
 
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
-                                    <div className="card">
+                                    <div className="card card-custom">
                                         <img src={card4} className="card-img-top" alt="..."/>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>

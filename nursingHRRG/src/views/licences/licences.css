@@ -1,0 +1,53 @@
+.container-licences {
+    padding: 0;
+    margin: 0;
+}
+
+.container-licences-title {
+    width: 80%;
+    background: linear-gradient(to right, #7dd4ff, #fdd1a3);
+}
+
+.orange-rectangle-licences {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 250px;
+    height: 200px;
+    background-color: #fab35d;
+    z-index: -1;
+}
+
+.blue-rectangle-licences {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 250px;
+    height: 200px;
+    background-color: #66adfe;
+    z-index: -1;
+}
+
+.btn-download-licences {
+    text-align: end;
+}
+
+
+@media (max-width: 768px) {
+    .container-licences-title {
+        width: 100%;
+    }
+
+    h4, p {
+        text-align: center;
+    }
+
+    .btn-download-licences {
+        text-align: center;
+    }
+    
+    .blue-rectangle-licences,
+    .orange-rectangle-licences {
+        display: none;
+    }
+}
