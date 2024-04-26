@@ -12,14 +12,14 @@ import './home.css';
 
 const Home = () => {
     return(
-        <div className="container-fluid">
+        <div className="container-fluid container-home">
             
             {/* Sección Banner Home */}
             <section className="container">
                 <div className="row my-5 d-flex justify-content-center position-relative d-none d-md-flex">
                     <div className="col">
-                        <div className="orange-rectangle"></div>
-                        <div className="blue-rectangle"></div>
+                        <div className="orange-rectangle-home"></div>
+                        <div className="blue-rectangle-home"></div>
                         <div className="image-container">
                             <img src={bannerHome} className="img-fluid col-12" alt="" />
                             <div className="image-overlay"></div>

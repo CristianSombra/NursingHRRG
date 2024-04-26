@@ -1,0 +1,41 @@
+.container-contact {
+    padding: 0;
+    margin: 0;
+}
+
+.container-contact-title {
+    width: 80%;
+    background: linear-gradient(to right, #7dd4ff, #fdd1a3);
+}
+
+.orange-rectangle-contact {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 250px;
+    height: 200px;
+    background-color: #fab35d;
+    z-index: -1;
+}
+
+.blue-rectangle-contact {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 250px;
+    height: 200px;
+    background-color: #66adfe;
+    z-index: -1;
+}
+
+
+@media (max-width: 768px) {
+    .container-contact-title {
+        width: 100%;
+    }
+    
+    .blue-rectangle-contact,
+    .orange-rectangle-contact {
+        display: none;
+    }
+}
