@@ -1,14 +1,14 @@
-.container-licences {
+.container-licenses {
     padding: 0;
     margin: 0;
 }
 
-.container-licences-title {
+.container-licenses-title {
     width: 80%;
     background: linear-gradient(to right, #7dd4ff, #fdd1a3);
 }
 
-.orange-rectangle-licences {
+.orange-rectangle-licenses {
     position: absolute;
     top: -20px;
     left: -20px;
@@ -18,7 +18,7 @@
     z-index: -1;
 }
 
-.blue-rectangle-licences {
+.blue-rectangle-licenses {
     position: absolute;
     bottom: -20px;
     right: -20px;
@@ -28,13 +28,13 @@
     z-index: -1;
 }
 
-.btn-download-licences {
+.btn-download-licenses {
     text-align: end;
 }
 
 
 @media (max-width: 768px) {
-    .container-licences-title {
+    .container-licenses-title {
         width: 100%;
     }
 
@@ -46,8 +46,8 @@
         text-align: center;
     }
     
-    .blue-rectangle-licences,
-    .orange-rectangle-licences {
+    .blue-rectangle-licenses,
+    .orange-rectangle-licenses {
         display: none;
     }
 }

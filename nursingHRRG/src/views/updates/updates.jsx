@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import bannerUpdates from '../../assets/bannerupdate.jpg';
 import bannerUpdatesMobile from '../../assets/bannerupdatemobile.jpg';
 import card1 from '../../assets/cardupdate1.png';
@@ -9,6 +11,9 @@ import ScrollTop from '../../components/scrolltop/scrollTop';
 import './updates.css';
 
 const Updates = () => {
+    const basePath = '/';
+    const pdfPath = basePath + "licences/";
+
     return(
         
         <div className="container-fluid container-updates">
@@ -108,9 +113,54 @@ const Updates = () => {
                         </div>
 
                     </div>
-            
-            
                 </div>
+
+                {/* Sección Materiales de utilidad */}
+
+                <section className="container">
+                    <div className="row mt-5 justify-content-center ">
+                        <div className="col-12 col-md-8">
+                            <div className="table-responsive">
+                                <table className="table table-striped table-hover table-lg">
+                                    <caption className="text-center">Lista de licencias</caption>
+                                    <thead>
+                                        <tr className="table-dark text-center">
+                                            <th>Licencias</th>
+                                            <th>Archivo</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Formulario de permiso de salida</th>
+                                            <th className="text-center">
+                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+                                                </a>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>Formulario de cambio de turno</th>
+                                            <th className="text-center">
+                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+                                                </a>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>Otro tipo de formulario a solicitar</th>
+                                            <th className="text-center">
+                                            <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+                                                </a>
+                                            </th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 
             <ScrollTop/>
         </div>
