@@ -1,4 +1,5 @@
 import React from "react";
+import PageTransition from '../../components/pagetransition/pagetransition';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import bannerUpdates from '../../assets/bannerupdate.jpg';
@@ -15,8 +16,8 @@ const Updates = () => {
     const pdfPath = basePath + "licences/";
 
     return(
-        
-        <div className="container-fluid container-updates">
+        <PageTransition>
+            <div className="container-fluid container-updates">
 
                 {/* Sección Banner Updates */}
                 <div className="container">
@@ -116,7 +117,6 @@ const Updates = () => {
                 </div>
 
                 {/* Sección Materiales de utilidad */}
-
                 <section className="container">
                     <div className="row mt-5 justify-content-center ">
                         <div className="col-12 col-md-8">
@@ -163,7 +163,8 @@ const Updates = () => {
                 </section>
                 
             <ScrollTop/>
-        </div>
+            </div>
+        </PageTransition>
     );
 };
 

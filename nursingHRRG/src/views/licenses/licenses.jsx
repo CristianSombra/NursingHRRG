@@ -1,4 +1,5 @@
 import React from "react";
+import PageTransition from '../../components/pagetransition/pagetransition';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import ScrollTop from '../../components/scrolltop/scrollTop';
@@ -14,7 +15,8 @@ const Licenses = () => {
     const pdfPath = basePath + "licences/";
 
     return(
-        <div className="container-fluid container-licenses">
+        <PageTransition>
+            <div className="container-fluid container-licenses">
             
             {/* Sección titulo */}
             <section className="container-fluid container-licenses-title position-relative">
@@ -132,7 +134,8 @@ const Licenses = () => {
 
 
             <ScrollTop/>
-        </div>
+            </div>
+        </PageTransition>
     );
 };
 

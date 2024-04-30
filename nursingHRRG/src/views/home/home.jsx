@@ -1,4 +1,5 @@
 import React from "react";
+import PageTransition from '../../components/pagetransition/pagetransition';
 import ScrollTop from '../../components/scrolltop/scrollTop';
 import bannerHome from '../../assets/bannerhome.jpg';
 import bannerHomeMobile from '../../assets/bannerhomemobile.jpg';
@@ -12,7 +13,8 @@ import './home.css';
 
 const Home = () => {
     return(
-        <div className="container-fluid container-home">
+        <PageTransition>
+            <div className="container-fluid container-home">
             
             {/* Sección Banner Home */}
             <section className="container">
@@ -249,8 +251,8 @@ const Home = () => {
             </section>
 
             <ScrollTop/>
-        </div>
-
+            </div>
+        </PageTransition>
     );
 };
 
