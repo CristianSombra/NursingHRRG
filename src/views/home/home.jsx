@@ -77,8 +77,10 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="row my-4 d-flex justify-content-center text-center d-md-none ">
-                    <div className="col titles-mobile">
+
+                {/* Sección Banner Mobile */}
+                <div className="row mt-5 mb-4 d-flex justify-content-center text-center d-md-none ">
+                    <div className="col mt-3 titles-mobile">
                         <motion.h3
                             initial={{y: -50, opacity: 0, filter: 'blur(6px)'}}
                             animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
@@ -93,7 +95,7 @@ const Home = () => {
                             >
                                 Rio Grande, Tierra del Fuego
                         </motion.h5>
-                        <div className="image-container mt-3">
+                        <div className="image-container mt-4">
                             <img src={bannerHomeMobile} className="img-fluid" alt="" />
                             <div className="image-overlay"></div>
                         </div>
