@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import PageTransition from '../../components/pagetransition/pagetransition';
 import ScrollTop from '../../components/scrolltop/scrollTop';
 import bannerHome from '../../assets/bannerhome.jpg';
@@ -20,15 +21,35 @@ const Home = () => {
             <section className="container">
                 <div className="row my-5 d-flex justify-content-center position-relative d-none d-md-flex">
                     <div className="col">
-                        <div className="orange-rectangle-home"></div>
-                        <div className="blue-rectangle-home"></div>
+                        <motion.div 
+                            initial={{x: -50, opacity: 0, filter: 'blur(6px)'}}
+                            animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                            transition={{duration: 1.2, delay: 0.4}}
+                            className="orange-rectangle-home"></motion.div>
+                        <motion.div 
+                            initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
+                            animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                            transition={{duration: 1.2, delay: 0.4}}
+                            className="blue-rectangle-home"></motion.div>
                         <div className="image-container">
-                            <img src={bannerHome} className="img-fluid col-12" alt="" />
-                            <div className="image-overlay"></div>
+                                <img src={bannerHome} className="img-fluid col-12" alt="" />
+                                <div className="image-overlay"></div>
                         </div>
                         <div className="text-overlay">
-                            <h2 className="text-white">Departamento de Enfermería</h2>
-                            <h4 className="text-muted">Rio Grande, Tierra del Fuego</h4>
+                                <motion.h2 
+                                    initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
+                                    animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
+                                    transition={{duration: 1.2, delay: 0.4}}
+                                    className="text-white">
+                                        Departamento de Enfermería
+                                    </motion.h2>
+                                <motion.h4 
+                                    initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
+                                    animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
+                                    transition={{duration: 1.4, delay: 0.6}}
+                                    className="text-muted">
+                                        Rio Grande, Tierra del Fuego
+                                    </motion.h4>
                         </div>
                     </div>
                 </div>

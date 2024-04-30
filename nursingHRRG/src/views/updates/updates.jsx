@@ -1,7 +1,8 @@
 import React from "react";
-import PageTransition from '../../components/pagetransition/pagetransition';
+import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import PageTransition from '../../components/pagetransition/pagetransition';
 import bannerUpdates from '../../assets/bannerupdate.jpg';
 import bannerUpdatesMobile from '../../assets/bannerupdatemobile.jpg';
 import card1 from '../../assets/cardupdate1.png';
@@ -23,8 +24,16 @@ const Updates = () => {
                 <div className="container">
                     <div className="row my-5 d-flex justify-content-center position-relative d-none d-md-flex">
                         <div className="col">
-                            <div className="orange-rectangle-updates"></div>
-                            <div className="blue-rectangle-updates"></div>
+                            <motion.div 
+                                initial={{x: -50, opacity: 0, filter: 'blur(6px)'}}
+                                animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                                transition={{duration: 1.2, delay: 0.4}}
+                                className="orange-rectangle-updates"></motion.div>
+                            <motion.div 
+                                initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
+                                animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                                transition={{duration: 1.2, delay: 0.4}}
+                                className="blue-rectangle-updates"></motion.div>
                             <div className="image-container-updates">
                                 <img src={bannerUpdates} className="img-fluid col-12" alt="" />
                             </div>
@@ -46,8 +55,20 @@ const Updates = () => {
                 <div className="container">
                     <div className="row my-3 d-flex justify-content-center text-center">
                         <div className="col">
-                            <h3 className="fw-bold my-3">Formación continua</h3>
-                            <p>Puedes visualizar las capcitaciones que quieras realizar, para planificarte con anticipacion y poder  formar parte de la experiencia contribuir a tu formación profesional.</p>
+                            <motion.h3 
+                                initial={{y: -50, opacity: 0, filter: 'blur(4px)'}}
+                                animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
+                                transition={{duration: 1.2, delay: 0.4}}
+                                className="fw-bold my-3">
+                                    Formación continua
+                                </motion.h3>
+                            <motion.p 
+                                initial={{opacity:0, filter: 'blur(4px)'}}
+                                animate={{opacity:1, filter: 'blur(0)'}}
+                                transition={{duration: 1.2, delay: 0.6}}
+                            >
+                                Puedes visualizar las capcitaciones que quieras realizar, para planificarte con anticipacion y poder  formar parte de la experiencia contribuir a tu formación profesional.
+                            </motion.p>
                         </div>
                     </div>
                 </div>
