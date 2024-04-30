@@ -12,7 +12,30 @@ import card1 from '../../assets/card1.png'
 import card2 from '../../assets/card2.png'
 import './home.css';
 
+
+const sentence = "Ser Enfermero es más que un oficio, es una fusión de Ciencia, Corazón, Fortaleza y Humanidad.";
+
+const sentenceVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+        opacity: 1,
+        transition: {
+            delay: 0.6,
+            staggerChildren: 0.04 
+        }
+    }
+};
+
+const letterVariants = {
+    hidden: { opacity: 0, x: -20 },
+    visible: { opacity: 1, x: 0 }
+};
+
+
 const Home = () => {
+
+    const letters = sentence.split("");
+
     return(
         <PageTransition>
             <div className="container-fluid container-home">
@@ -66,9 +89,13 @@ const Home = () => {
                 </div>
 
                 <div className="row my-3 d-flex justify-content-center text-center">
-                    <div className="col">
-                        <p>“Ser Enfermero es más que un oficio, es una fusión de Ciencia, Corazón, Fortaleza y Humanidad”.</p>
-                    </div>
+                    <p>
+                        <motion.span variants={sentenceVariants} initial="hidden" animate="visible">
+                            {letters.map((letter, index) => (
+                                <motion.span key={index} variants={letterVariants}>{letter}</motion.span>
+                            ))}
+                        </motion.span>
+                    </p>
                 </div>
 
             </section>

@@ -16,6 +16,24 @@ const Updates = () => {
     const basePath = '/';
     const pdfPath = basePath + "licences/";
 
+    const textContainerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                duration: 1,
+                delay: 0.4,
+                staggerChildren: 0.03
+            }
+        }
+    };
+
+    const letterVariants = {
+        hidden: { opacity: 0, x: -20 },
+        visible: { opacity: 1, x: 0 }
+    };
+
+
     return(
         <PageTransition>
             <div className="container-fluid container-updates">
@@ -36,6 +54,28 @@ const Updates = () => {
                                 className="blue-rectangle-updates"></motion.div>
                             <div className="image-container-updates">
                                 <img src={bannerUpdates} className="img-fluid col-12" alt="" />
+                                <div className="blue-rectangle-updates-over">
+                                    <div className="text-container">
+                                    <motion.p
+                                        className="banner-updates-text"
+                                        variants={textContainerVariants}
+                                        initial="hidden"
+                                        animate="visible"
+                                        >
+                                        {"El aprendizaje es experiencia. Todo lo demás es información.".split("").map((letter, index) => (
+                                            <motion.span key={index} variants={letterVariants}>{letter}</motion.span>
+                                        ))}
+                                    </motion.p>
+                                    <motion.p
+                                        className="banner-updates-author"
+                                        initial={{ opacity: 0 }}
+                                        animate={{ opacity: 1 }}
+                                        transition={{ duration: 1.2, delay: 1.8 }}
+                                    >
+                                        - Albert Einstein
+                                    </motion.p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
