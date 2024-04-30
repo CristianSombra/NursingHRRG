@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+/* Sección Banner */
+
 .image-container {
     position: relative;
     overflow: hidden;
@@ -43,6 +45,18 @@
     top: 0;
     left: 0;
     padding: 20px;
+}
+
+
+/* Sección Banner movile */
+
+.titles-mobile h3 {
+    color: #2A4866;
+    font-weight: bold;
+}
+
+.titles-mobile h5 {
+    color: grey;
 }
 
 

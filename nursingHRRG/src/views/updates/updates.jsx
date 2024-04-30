@@ -16,6 +16,8 @@ const Updates = () => {
     const basePath = '/';
     const pdfPath = basePath + "licences/";
 
+    const sentence = "El aprendizaje es experiencia. Todo lo demás es información.";
+
     const textContainerVariants = {
         hidden: { opacity: 0 },
         visible: {
@@ -56,44 +58,35 @@ const Updates = () => {
                                 <img src={bannerUpdates} className="img-fluid col-12" alt="" />
                                 <div className="blue-rectangle-updates-over">
                                     <div className="text-container">
-                                    <motion.p
-                                        className="banner-updates-text"
-                                        variants={textContainerVariants}
-                                        initial="hidden"
-                                        animate="visible"
+                                        <motion.p
+                                            className="banner-updates-text"
+                                            variants={textContainerVariants}
+                                            initial="hidden"
+                                            animate="visible"
+                                            >
+                                            {['"'].concat(sentence.split(""), '"').map((letter, index) => (
+                                <motion.span key={index} variants={letterVariants}>{letter}</motion.span>
+                                ))}
+                                        </motion.p>
+                                        <motion.p
+                                            className="banner-updates-author"
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            transition={{ duration: 1.2, delay: 1.8 }}
                                         >
-                                        {"El aprendizaje es experiencia. Todo lo demás es información.".split("").map((letter, index) => (
-                                            <motion.span key={index} variants={letterVariants}>{letter}</motion.span>
-                                        ))}
-                                    </motion.p>
-                                    <motion.p
-                                        className="banner-updates-author"
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        transition={{ duration: 1.2, delay: 1.8 }}
-                                    >
-                                        - Albert Einstein
-                                    </motion.p>
+                                            - Albert Einstein
+                                        </motion.p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="row my-4 d-flex justify-content-center text-center d-md-none">
-                    <div className="col">
-                        <div className="image-container mt-3">
-                            <img src={bannerUpdatesMobile} className="img-fluid" alt="" />
-                            <div className="image-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-
                 </div>
             
                 {/* Sección Título */}
                 <div className="container">
-                    <div className="row my-3 d-flex justify-content-center text-center">
+                    <div className="row my-3 d-flex justify-content-center text-center d-none d-md-flex">
                         <div className="col">
                             <motion.h3 
                                 initial={{y: -50, opacity: 0, filter: 'blur(4px)'}}
@@ -108,6 +101,62 @@ const Updates = () => {
                                 transition={{duration: 1.2, delay: 0.6}}
                             >
                                 Puedes visualizar las capcitaciones que quieras realizar, para planificarte con anticipacion y poder  formar parte de la experiencia contribuir a tu formación profesional.
+                            </motion.p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Sección Título mobile */}
+                <section className="container-fluid container-updates-title">
+                    <div className="row my-5 d-flex justify-content-center text-center d-md-none">
+                        <div className="col-8 my-5">
+                            <motion.h3 
+                                initial={{y: -50, opacity: 0, filter: 'blur(4px)'}}
+                                animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
+                                transition={{duration: 1.2, delay: 0.4}}
+                                className="fw-bold my-3">
+                                    Formación continua
+                                </motion.h3>
+                            <motion.p 
+                                initial={{opacity:0, filter: 'blur(4px)'}}
+                                animate={{opacity:1, filter: 'blur(0)'}}
+                                transition={{duration: 1.2, delay: 0.6}}
+                            >
+                                Puedes visualizar las capcitaciones que quieras realizar, para planificarte con anticipacion y poder  formar parte de la experiencia contribuir a tu formación profesional.
+                            </motion.p>
+                        </div>
+                    </div>
+                </section>
+
+                <div className="container">
+                    <div className="row my-4 d-flex justify-content-center text-center d-md-none">
+                        <div className="col">
+                            <motion.div 
+                                initial={{x: 50, opacity: 0, filter: 'blur(5px)'}}
+                                animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                                transition={{duration: 1.6, delay: 0.6}}
+                                className="image-container my-3">
+                                    <img src={bannerUpdatesMobile} className="img-fluid" alt="" />
+                                    <div className="image-overlay"></div>
+                            </motion.div>
+                        </div>
+                        <div className="col-12">
+                            <motion.p
+                                variants={textContainerVariants}
+                                initial="hidden"
+                                animate="visible"
+                                >
+                                {['"'].concat(sentence.split(""), '"').map((letter, index) => (
+                                <motion.span key={index} variants={letterVariants}>{letter}</motion.span>
+                                ))}
+                            </motion.p>
+                            <motion.p
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ duration: 1.2, delay: 1.8 }}
+                                style={{ fontStyle: 'italic' }}
+                            >
+                                - Albert Einstein
                             </motion.p>
                         </div>
                     </div>
