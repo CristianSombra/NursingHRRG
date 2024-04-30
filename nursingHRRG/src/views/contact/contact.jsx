@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import PageTransition from '../../components/pagetransition/pagetransition';
 import ScrollTop from '../../components/scrolltop/scrollTop';
 import { motion } from 'framer-motion';
 import { toast } from "react-toastify";
@@ -88,7 +89,8 @@ const Contact = () => {
 
 
     return(
-        <div className="container-fluid container-contact">
+        <PageTransition>
+            <div className="container-fluid container-contact">
             
             <section className="container-fluid container-contact-title position-relative">
                 <div className="row my-5 d-flex justify-content-center text-center">
@@ -190,7 +192,8 @@ const Contact = () => {
                 </div>
             </section>
             <ScrollTop/>
-        </div>
+            </div>
+        </PageTransition>
     );
 };
 

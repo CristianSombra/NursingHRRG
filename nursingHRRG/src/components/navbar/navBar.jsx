@@ -18,8 +18,8 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg">
             
-                <div className="container-fluid my-3">
-                    <img src={logoNav} className="img-fluid" style={{width: '60px'}} alt="" />
+                <div className="container-fluid">
+                    <img src={logoNav} className="img-fluid" style={{width: '90px'}} alt="" />
                         <div className={`custom-menu-button d-lg-none ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                             <div></div>
                             <div></div>
