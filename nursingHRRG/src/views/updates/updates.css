@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.container-updates-title {
+    background: linear-gradient(to right, #7dd4ff, #fdd1a3);
+}
+
 .image-container-updates {
     position: relative;
     overflow: hidden;

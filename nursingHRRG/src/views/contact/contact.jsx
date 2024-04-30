@@ -117,7 +117,7 @@ const Contact = () => {
                             animate={{opacity:1, filter: 'blur(0)'}}
                             transition={{duration: 1.2, delay: 0.6}}
                             >
-                                Puedes visualizar los diferentes tipos de licencias existentes, con su explicacións, pasos y los archivos descargables. Recuerda que es bueno que organices con tus compañeros de turno para la correcta planificación del personal.
+                                Puedes contactarte con nosotros, si no eres personal del hospital pero eres un enfermero entusiasta puedes enviarnos un mensaje.
                         </motion.p>
                     </div>
                 </div>
