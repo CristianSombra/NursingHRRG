@@ -118,9 +118,14 @@ const Home = () => {
             {/* Sección Anuncios próximos */}
             <section className="container">
                 <div className="row my-5 d-flex justity-content-center text-center">
-                    
-                        <h5 className="fw-bold">Próximas capacitaciones</h5>
-                        <h5 className="text-muted">Mayo 2024</h5>
+                    <motion.div
+                        initial={{opacity:0, filter: 'blur(4px)'}}
+                        animate={{opacity:1, filter: 'blur(0)'}}
+                        transition={{duration:1.2, delay:0.6}}
+                        >
+                            <h5 className="fw-bold">Próximas capacitaciones</h5>
+                            <h5 className="text-muted">Mayo 2024</h5>
+                    </motion.div>
                     
                     <div className="col-12 col-md-10 col-lg-8 my-3 mx-auto">
                         <div id="carouselIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -165,9 +170,13 @@ const Home = () => {
             {/* Sección Novedades */}
             <section className="container">
                 <div className="row my-5 d-flex justify-content-center">
-                    <div className="my-3">
-                        <h4 className="fw-bold">Novedades</h4>
-                    </div>
+                    <motion.div
+                        initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
+                        animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                        transition={{duration: 1.2, delay: 0.4}}
+                        className="my-3">
+                            <h4 className="fw-bold">Novedades</h4>
+                    </motion.div>
                     <div className="col-12 col-md-8 col-lg-6">
                         <img src={stand1} className="img-fluid img-custom-home my-3" alt="" />
                         <h5 className="fw-bold">Semana de presentación de stands de Enfermería</h5>
@@ -211,9 +220,13 @@ const Home = () => {
             {/* Sección Preguntas frecuentes */}
             <section className="container">
                 <div className="row my-5 d-flex justity-content-center">
-                    <div className="my-3">
-                        <h4 className="fw-bold">Preguntas frecuentes</h4>
-                    </div>
+                    <motion.div 
+                        initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
+                        animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                        transition={{duration: 1.2, delay: 0.4}}
+                        className="my-3">
+                            <h4 className="fw-bold">Preguntas frecuentes</h4>
+                    </motion.div>
 
                     <div className="col-12 col-md-10 mx-auto">
                         <div className="accordion" id="accordionExample">

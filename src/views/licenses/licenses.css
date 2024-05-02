@@ -32,6 +32,10 @@
     text-align: end;
 }
 
+.table-custom-licenses thead tr th {
+    background-color: black;
+}
+
 
 @media (max-width: 768px) {
     .container-licenses-title {
