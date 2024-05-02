@@ -112,7 +112,7 @@ const Licenses = () => {
                 <div className="row mt-5 justify-content-center ">
                     <div className="col-12 col-md-8">
                         <div className="table-responsive">
-                            <table className="table table-striped table-hover table-lg">
+                            <table className="table table-striped table-hover table-lg table-custom-licenses">
                                 <caption className="text-center">Lista de licencias</caption>
                                 <thead>
                                     <tr className="table-dark text-center">

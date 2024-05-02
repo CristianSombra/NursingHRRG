@@ -82,6 +82,10 @@
     background-color: #f2fcfe;
 }
 
+.table-custom-updates thead tr th {
+    background-color: black;
+}
+
 
 /* Responsive */
 

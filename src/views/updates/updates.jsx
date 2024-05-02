@@ -41,7 +41,7 @@ const Updates = () => {
             <div className="container-fluid container-updates">
 
                 {/* Sección Banner Updates */}
-                <div className="container">
+                <section className="container">
                     <div className="row my-5 d-flex justify-content-center position-relative d-none d-md-flex">
                         <div className="col">
                             <motion.div 
@@ -82,10 +82,10 @@ const Updates = () => {
                         </div>
                     </div>
 
-                </div>
+                </section>
             
                 {/* Sección Título */}
-                <div className="container">
+                <section className="container">
                     <div className="row my-3 d-flex justify-content-center text-center d-none d-md-flex">
                         <div className="col">
                             <motion.h3 
@@ -104,7 +104,7 @@ const Updates = () => {
                             </motion.p>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 {/* Sección Título mobile */}
                 <section className="container-fluid container-updates-title">
@@ -128,7 +128,8 @@ const Updates = () => {
                     </div>
                 </section>
 
-                <div className="container">
+                {/* Sección Banner mobile */}
+                <section className="container">
                     <div className="row my-4 d-flex justify-content-center text-center d-md-none">
                         <div className="col">
                             <motion.div 
@@ -160,14 +161,19 @@ const Updates = () => {
                             </motion.p>
                         </div>
                     </div>
-                </div>
+                </section>
             
                 {/* Sección Capacitaciones */}
                 <div className="container">
                     <div className="row my-5 d-flex justify-content-center">
-
                         <div className="col-12">
-                            <h4 className="fw-bold text-muted my-3">Capacitaciones mes de Mayo</h4>
+                            <motion.h4 
+                                initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
+                                animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                                transition={{duration: 1.2, delay: 0.4}}
+                                className="fw-bold text-muted my-3">
+                                    Capacitaciones mes de Mayo
+                            </motion.h4>
                             <div className="row d-flex justify-content-around mx-auto">
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
                                     <div className="card card-custom">
@@ -195,8 +201,13 @@ const Updates = () => {
 
                         <div className="col-12">
                         <div className="text-end">
-                            <h4 className="fw-bold text-muted mt-5 my-3">Capacitaciones mes de Junio</h4>
-
+                            <motion.h4 
+                                initial={{x: -50, opacity: 0, filter: 'blur(6px)'}}
+                                animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                                transition={{duration: 1.2, delay: 0.4}}
+                                className="fw-bold text-muted mt-5 my-3">
+                                    Capacitaciones mes de Junio
+                            </motion.h4>
                         </div>
                             <div className="row d-flex justify-content-around mx-auto">
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
@@ -231,7 +242,7 @@ const Updates = () => {
                     <div className="row mt-5 justify-content-center ">
                         <div className="col-12 col-md-8">
                             <div className="table-responsive">
-                                <table className="table table-striped table-hover table-lg">
+                                <table className="table table-striped table-hover table-lg table-custom-updates">
                                     <caption className="text-center">Lista de licencias</caption>
                                     <thead>
                                         <tr className="table-dark text-center">
