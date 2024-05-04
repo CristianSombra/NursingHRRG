@@ -171,28 +171,33 @@ const Updates = () => {
                                 initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
                                 animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                                 transition={{duration: 1.2, delay: 0.4}}
-                                className="fw-bold text-muted my-3">
+                                className="fw-bold my-3">
                                     Capacitaciones mes de Mayo
                             </motion.h4>
                             <div className="row d-flex justify-content-around mx-auto">
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
-                                    <div className="card card-custom">
-                                        <img src={card1} className="card-img-top" alt="..."/>
-                                        <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
+                                    <motion.div
+                                        className="card card-custom">
+                                            <img src={card1} className="card-img-top img-fluid" alt="..."/>
+                                            <div className="card-body">
+                                                <h5 className="card-title fw-bold">Card title</h5>
+                                                <p className="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <div className="text-center text-md-end my-2">
+                                                    <a href="#" className="btn-custom">Go somewhere</a>
+                                                </div>
+                                            </div>
+                                    </motion.div>
                                 </div>
 
                                 <div className="col-12 col-md-8 col-lg-5 my-3">
                                     <div className="card card-custom">
                                         <img src={card2} className="card-img-top" alt="..."/>
                                         <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                            <h5 className="card-title fw-bold">Card title</h5>
+                                            <p className="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <div className="text-center text-md-end my-2">
+                                                <a href="#" className="btn-custom">Go somewhere</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -205,7 +210,7 @@ const Updates = () => {
                                 initial={{x: -50, opacity: 0, filter: 'blur(6px)'}}
                                 animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                                 transition={{duration: 1.2, delay: 0.4}}
-                                className="fw-bold text-muted mt-5 my-3">
+                                className="fw-bold mt-5 my-3">
                                     Capacitaciones mes de Junio
                             </motion.h4>
                         </div>
@@ -214,9 +219,11 @@ const Updates = () => {
                                     <div className="card card-custom">
                                         <img src={card3} className="card-img-top" alt="..."/>
                                         <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                            <h5 className="card-title fw-bold">Card title</h5>
+                                            <p className="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <div className="text-center text-md-end my-2">
+                                                <a href="#" className="btn-custom">Go somewhere</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -225,9 +232,11 @@ const Updates = () => {
                                     <div className="card card-custom">
                                         <img src={card4} className="card-img-top" alt="..."/>
                                         <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                            <h5 className="card-title fw-bold">Card title</h5>
+                                            <p className="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <div className="text-center text-md-end my-2">
+                                                <a href="#" className="btn-custom">Go somewhere</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -254,25 +263,40 @@ const Updates = () => {
                                         <tr>
                                             <th>Formulario de permiso de salida</th>
                                             <th className="text-center">
-                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
-                                                    <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
-                                                </a>
+                                                <motion.div 
+                                                    initial={{y: 0}}
+                                                    whileHover={{y: -10}}
+                                                    transition={{duration: 0.2, delay: 0.1}}>
+                                                        <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                            <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+                                                        </a>
+                                                </motion.div>
                                             </th>
                                         </tr>
                                         <tr>
                                             <th>Formulario de cambio de turno</th>
                                             <th className="text-center">
-                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
-                                                    <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
-                                                </a>
+                                                <motion.div 
+                                                    initial={{y: 0}}
+                                                    whileHover={{y: -10}}
+                                                    transition={{duration: 0.2, delay: 0.1}}>
+                                                        <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                            <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+                                                        </a>
+                                                </motion.div>
                                             </th>
                                         </tr>
                                         <tr>
                                             <th>Otro tipo de formulario a solicitar</th>
                                             <th className="text-center">
-                                            <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
-                                                <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
-                                                </a>
+                                                <motion.div 
+                                                    initial={{y: 0}}
+                                                    whileHover={{y: -10}}
+                                                    transition={{duration: 0.2, delay: 0.1}}>
+                                                        <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                            <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+                                                        </a>
+                                                </motion.div>
                                             </th>
                                         </tr>
                                     </tbody>

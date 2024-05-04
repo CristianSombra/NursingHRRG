@@ -41,7 +41,7 @@ const Home = () => {
             <div className="container-fluid container-home">
             
             {/* Sección Banner Home */}
-            <section className="container">
+            <section className="container container-banner">
                 <div className="row my-5 d-flex justify-content-center position-relative d-none d-md-flex">
                     <div className="col">
                         <motion.div 
@@ -70,7 +70,7 @@ const Home = () => {
                                     initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
                                     animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                                     transition={{duration: 1.4, delay: 0.6}}
-                                    className="text-muted">
+                                    >
                                         Rio Grande, Tierra del Fuego
                                     </motion.h4>
                         </div>
@@ -157,9 +157,7 @@ const Home = () => {
                     </div>
 
                     <div className="col-12">
-                        <button className="btn-custom-home">
-                            <p>Incribir</p>
-                        </button>
+                        <a href="#" className="btn-custom">Inscribirme</a>
                     </div>
 
                 </div>
@@ -179,8 +177,8 @@ const Home = () => {
                     </motion.div>
                     <div className="col-12 col-md-8 col-lg-6">
                         <img src={stand1} className="img-fluid img-custom-home my-3" alt="" />
-                        <h5 className="fw-bold">Semana de presentación de stands de Enfermería</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem itaque totam voluptate! Doloremque aliquam expedita earum quod? Libero, minus.</p>
+                        <h5 className="fw-bold text-center text-md-start">Semana de presentación de stands de Enfermería</h5>
+                        <p className="text-center text-md-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem itaque totam voluptate! Doloremque aliquam expedita earum quod? Libero, minus.</p>
                     </div>
 
                     <div className="col-12 col-md-8 col-lg-4">
@@ -192,8 +190,8 @@ const Home = () => {
                                         <img src={card1} className="img-fluid img-custom-home" alt="" />
                                     </div>
                                     <div className="col-12 col-lg-6">
-                                        <h5 className="fw-bold">Ingreso a planta</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dignissimos?</p>
+                                        <h5 className="fw-bold text-center text-md-start">Ingreso a planta</h5>
+                                        <p className="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dignissimos?</p>
                                     </div>
                                 </div>
                             </div>
@@ -204,8 +202,8 @@ const Home = () => {
                                         <img src={card2} className="img-fluid img-custom-home" alt="" />
                                     </div>
                                     <div className="col-12 col-lg-6">
-                                        <h5 className="fw-bold">Actividad en el RAM</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dignissimos?</p>
+                                        <h5 className="fw-bold text-center text-md-start">Actividad en el RAM</h5>
+                                        <p className="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dignissimos?</p>
                                     </div>
                                 </div>
                             </div>
