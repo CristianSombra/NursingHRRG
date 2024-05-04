@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import './footer.css'
 
 const Footer = () => {
@@ -10,44 +11,44 @@ const Footer = () => {
             <div className="row d-flex justify-content-center text-center">
                             <div className="col-auto">
                                 <a 
-                                    href="https://www.instagram.com/cristiansombra87/" 
+                                    href="https://www.instagram.com/hospitalregionalriogrande/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="red-social"
                                 >
                                     <div>
-                                        <FontAwesomeIcon icon={faInstagram} className="icon-custom" />
+                                        <FontAwesomeIcon icon={faInstagram} className="icon-custom icon-instagram" />
                                     </div>
                                 </a>   
                             </div>
                             <div className="col-auto">
                                 <a
-                                    href="https://www.linkedin.com/in/cristiansombra"
+                                    href="https://www.facebook.com/RedDeSaludRG"
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="red-social"
                                 >
                                 <div>
-                                    <FontAwesomeIcon icon={faLinkedinIn} className="icon-custom" />
+                                    <FontAwesomeIcon icon={faFacebookF} className="icon-custom icon-facebook" />
                                 </div>
                                 </a>   
                             </div>
                             <div className="col-auto">
                                 <a 
-                                    href="https://github.com/CristianSombra" 
+                                    href="https://www.tierradelfuego.gob.ar/blog/2016/10/02/hospital-regional-rio-grande/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="red-social"
                                 >
                                 <div>
-                                    <FontAwesomeIcon icon={faGithub} className="icon-custom" />
+                                    <FontAwesomeIcon icon={faGlobe} className="icon-custom icon-web" />
                                 </div>
                                 </a>
                             </div>
                         </div>
                 <div className="row d-flex justify-content-center text-center">
-                    <div className="col-12 col-md-3 my-2">
-                        <figcaption style={{fontWeight: 'bold'}}>Realizado por Cristian Sombra 2024</figcaption>
+                    <div className="col-12 col-md-4 my-2">
+                        <figcaption style={{fontWeight: 'bold'}}>Departamento de Enfermería HRRG 2024</figcaption>
                     </div>
                 </div>
             </div>
