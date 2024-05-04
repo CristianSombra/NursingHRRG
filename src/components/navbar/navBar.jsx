@@ -33,10 +33,42 @@ const Navbar = () => {
                         style={{ overflowY: isMenuOpen ? 'hidden' : 'visible' }}
                         >
                         <div className="navbar-nav mt-3 ms-auto">
-                            <Link to="/home" className="nav-link" onClick={closeMenu}>Inicio</Link>
-                            <Link to="/updates" className="nav-link" onClick={closeMenu}>Capacitación</Link>
-                            <Link to="/licences" className="nav-link" onClick={closeMenu}>Licencias</Link>
-                            <Link to="/contact" className="nav-link" onClick={closeMenu}>Contacto</Link>
+                            <motion.div
+                                initial={{y: 0}}
+                                whileHover={{y: -3}}
+                                transition={{duration: 0.1}}
+                                >
+                                <Link to="/home" className="nav-link" onClick={closeMenu}>
+                                    Inicio
+                                </Link>
+                            </motion.div>
+                            <motion.div
+                                initial={{y: 0}}
+                                whileHover={{y: -3}}
+                                transition={{duration: 0.1}}
+                                >
+                                <Link to="/updates" className="nav-link" onClick={closeMenu}>
+                                    Capacitación
+                                </Link>
+                            </motion.div>
+                            <motion.div
+                                initial={{y: 0}}
+                                whileHover={{y: -3}}
+                                transition={{duration: 0.1}}
+                                >
+                                <Link to="/licences" className="nav-link" onClick={closeMenu}>
+                                    Licencias
+                                </Link>
+                            </motion.div>
+                            <motion.div
+                                initial={{y: 0}}
+                                whileHover={{y: -3}}
+                                transition={{duration: 0.1}}
+                                >
+                                <Link to="/contact" className="nav-link" onClick={closeMenu}>
+                                    Contacto
+                                </Link>
+                            </motion.div>
                         </div>
                     </motion.div>
                 </div>
