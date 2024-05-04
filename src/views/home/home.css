@@ -5,6 +5,11 @@
 
 /* Sección Banner */
 
+.container-banner h4 {
+    color: rgb(62, 62, 62);
+}
+
+
 .image-container {
     position: relative;
     overflow: hidden;
@@ -48,10 +53,11 @@
 }
 
 
+
 /* Sección Banner movile */
 
 .titles-mobile h3 {
-    color: #2A4866;
+    color: #486682;
     font-weight: bold;
 }
 
@@ -61,31 +67,6 @@
 
 
 /* Sección Carrusel */
-
-.btn-custom-home {
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
-    margin-top: 10px;
-    width: 150px;
-    height: 48px;
-    color: white;
-    background-color: rgba(255, 157, 0, 0.595);
-    border-radius: 10px;
-    border: 1px solid rgb(216, 133, 0);
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-.btn-custom-home p {
-    font-size: 18px;
-}
-
-.btn-custom-home:hover {
-    color: white;
-    background-color: rgb(255, 157, 0);
-}
 
 
 /* Sección Novedades */

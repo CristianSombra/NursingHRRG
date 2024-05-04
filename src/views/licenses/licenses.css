@@ -28,10 +28,6 @@
     z-index: -1;
 }
 
-.btn-download-licenses {
-    text-align: end;
-}
-
 .table-custom-licenses thead tr th {
     background-color: black;
 }
