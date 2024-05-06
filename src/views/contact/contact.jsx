@@ -92,6 +92,7 @@ const Contact = () => {
         <PageTransition>
             <div className="container-fluid container-contact">
             
+            {/* Sección Titulo */}
             <section className="container-fluid container-contact-title position-relative">
                 <div className="row my-5 d-flex justify-content-center text-center">
                     <div className="col-8 my-5">
@@ -125,7 +126,7 @@ const Contact = () => {
 
             <section className="container-contact">
                 <div className="row my-5 d-flex justify-content-center mx-auto">
-                    <div className="col-10 col-lg-4">
+                    <div className="col-7">
                         <form className="" onSubmit={sendEmail} ref={form}>
                             <motion.div 
                                 className="row"
@@ -133,51 +134,50 @@ const Contact = () => {
                                 animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                                 transition={{duration: 1.6, delay: 0.6}}
                                 >
-                        <h4 className="fw-bold">Escríbeme</h4>
-
-                                    <div className="col-12 col-md-12 col-lg-6 mt-5 position-relative">
-                                        <input 
-                                            type="text" 
-                                            className="custom-input" 
-                                            placeholder=" " 
-                                            required
-                                            value={formControl.from_name}
-                                            onChange={handleChage}
-                                            name="from_name"
-                                            id="from_name"
-                                            />
-                                        <label htmlFor="nombre" className="custom-label fs-5 ms-2">Nombre</label>
-                                    </div>
-                                    <div className="col-12 col-md-12 col-lg-6 mt-5  position-relative">
-                                        <input 
-                                            type="text" 
-                                            className="custom-input" 
-                                            placeholder=" " 
-                                            name="email"
-                                            id="email"
-                                            value={formControl.email}
-                                            onChange={handleChage}
-                                            required
-                                            />
-                                        <label htmlFor="email" className="fs-5 ms-2 custom-label">Email</label>
-                                    </div>
-                                    <div className="col-12 my-3 position-relative">
-                                        <textarea 
-                                            type="text"
-                                            className="custom-input custom-area"
-                                            placeholder=" " 
-                                            name="message"
-                                            id="message"
-                                            cols="30"
-                                            rows="10"
-                                            value={formControl.message}
-                                            onChange={handleChage}
-                                            required
-                                            >
-                                                
-                                            </textarea>
-                                            <label htmlFor="mensaje" className="custom-label fs-5 ms-2">Mensaje</label>
-                                    </div>
+                                <h4 className="fw-bold">Escríbenos</h4>
+                                <div className="col-12 col-md-12 col-lg-6 mt-5 position-relative">
+                                    <input 
+                                        type="text" 
+                                        className="custom-input" 
+                                        placeholder=" " 
+                                        required
+                                        value={formControl.from_name}
+                                        onChange={handleChage}
+                                        name="from_name"
+                                        id="from_name"
+                                        />
+                                    <label htmlFor="nombre" className="custom-label fs-5 ms-2">Nombre</label>
+                                </div>
+                                <div className="col-12 col-md-12 col-lg-6 mt-5  position-relative">
+                                    <input 
+                                        type="text" 
+                                        className="custom-input" 
+                                        placeholder=" " 
+                                        name="email"
+                                        id="email"
+                                        value={formControl.email}
+                                        onChange={handleChage}
+                                        required
+                                        />
+                                    <label htmlFor="email" className="fs-5 ms-2 custom-label">Email</label>
+                                </div>
+                                <div className="col-12 my-3 position-relative">
+                                    <textarea 
+                                        type="text"
+                                        className="custom-input custom-area"
+                                        placeholder=" " 
+                                        name="message"
+                                        id="message"
+                                        cols="30"
+                                        rows="10"
+                                        value={formControl.message}
+                                        onChange={handleChage}
+                                        required
+                                        >
+                                            
+                                        </textarea>
+                                        <label htmlFor="mensaje" className="custom-label fs-5 ms-2">Mensaje</label>
+                                </div>
                                 </motion.div>
                                 <motion.div 
                                     className="col text-end"
@@ -187,7 +187,7 @@ const Contact = () => {
                                     >
                                     <button 
                                         type="submit" 
-                                        className="btn p-3 btn-contact"
+                                        className="p-3 btn-custom"
                                         id="button" 
                                         value="Send Email"
                                         > 
@@ -196,21 +196,28 @@ const Contact = () => {
                                 </motion.div>
                         </form>
                     </div>
-                    <div className="ccol-10 col-lg-4 mt-5 text-center">
-                        <motion.div
-                            initial={{x: 50, opacity: 0, filter: 'blur(5px)'}}
-                            animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
-                            transition={{duration: 1.6, delay: 0.6}}
-                            className="col-12"
-                            >
-                            <img src={imgWhatsApp} className="img-fluid my-3" style={{width: '60%'}} alt="" />
-                            <h5 className="fw-bold">Semana de presentación de stands de Enfermería</h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem itaque totam voluptate! Doloremque aliquam expedita earum quod? Libero, minus.</p>
-                        </motion.div>
+
+                    <div className="col-12 mt-5 text-center">
+                        <div className="row d-flex justify-content-center align-items-center">
+                            <h4 className="fw-bold">Escríbenos</h4>
+                            <div className="col-12 col-md-10 col-lg-4">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem itaque totam voluptate! Doloremque aliquam expedita earum quod? Libero, minus.</p>
+                            </div>
+                            <motion.div
+                                initial={{x: 50, opacity: 0, filter: 'blur(5px)'}}
+                                animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
+                                transition={{duration: 1.6, delay: 0.6}}
+                                className="col-12 col-md-10 col-lg-5"
+                                >
+                                <img src={imgWhatsApp} className="img-fluid my-3" style={{width: '60%'}} alt="" />
+                            </motion.div>
+                        </div>
+
                     </div>
                     
                 </div>
             </section>
+
             <ScrollTop/>
             </div>
         </PageTransition>

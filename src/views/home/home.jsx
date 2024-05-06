@@ -157,7 +157,7 @@ const Home = () => {
                     </div>
 
                     <div className="col-12">
-                        <a href="#" className="btn-custom">Inscribirme</a>
+                        <button href="" className="btn-custom">Inscribirme</button>
                     </div>
 
                 </div>
@@ -172,16 +172,19 @@ const Home = () => {
                         initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.4}}
-                        className="my-3">
+                        className="col-10 my-3">
                             <h4 className="fw-bold">Novedades</h4>
                     </motion.div>
-                    <div className="col-12 col-md-8 col-lg-6">
+                    <div className="col-12 col-md-10">
+                        <p>Mantente actualizado de las últimas noticias o informaciones relacionadas a las actividades que se realizan, novedades, cambios, entre otros.</p>
+                    </div>
+                    <div className="col-11 col-md-8 col-lg-6">
                         <img src={stand1} className="img-fluid img-custom-home my-3" alt="" />
                         <h5 className="fw-bold text-center text-md-start">Semana de presentación de stands de Enfermería</h5>
                         <p className="text-center text-md-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem itaque totam voluptate! Doloremque aliquam expedita earum quod? Libero, minus.</p>
                     </div>
 
-                    <div className="col-12 col-md-8 col-lg-4">
+                    <div className="col-11 col-md-8 col-lg-4">
                         <div className="row">
 
                             <div className="col-12">
@@ -217,16 +220,19 @@ const Home = () => {
             
             {/* Sección Preguntas frecuentes */}
             <section className="container">
-                <div className="row my-5 d-flex justity-content-center">
+                <div className="row my-5 d-flex justify-content-center">
                     <motion.div 
                         initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.4}}
-                        className="my-3">
+                        className="col-10 my-3">
                             <h4 className="fw-bold">Preguntas frecuentes</h4>
                     </motion.div>
+                    <div className="col-12 col-md-10">
+                        <p>Mantente actualizado de las últimas noticias o informaciones relacionadas a las actividades que se realizan, novedades, cambios, entre otros.</p>
+                    </div>
 
-                    <div className="col-12 col-md-10 mx-auto">
+                    <div className="col-12 col-md-10 col-lg-8 mx-auto">
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item accordion-custom">
                                 <h2 className="accordion-header" id="headingOne">
