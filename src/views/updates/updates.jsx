@@ -171,32 +171,32 @@ const Updates = () => {
                                 initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
                                 animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                                 transition={{duration: 1.2, delay: 0.4}}
-                                className="fw-bold my-3">
+                                className="col-10 fw-bold my-3">
                                     Capacitaciones mes de Mayo
                             </motion.h4>
                             <div className="row d-flex justify-content-around mx-auto">
-                                <div className="col-12 col-md-8 col-lg-5 my-3">
+                                <div className="col-12 col-md-6 col-lg-5 my-3">
                                     <motion.div
                                         className="card card-custom">
                                             <img src={card1} className="card-img-top img-fluid" alt="..."/>
                                             <div className="card-body">
-                                                <h5 className="card-title fw-bold">Card title</h5>
-                                                <p className="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <h5 className="card-title fw-bold">Actualización de RCP avanzado</h5>
+                                                <p className="card-text mb-3">Participa de las últimos procedimientos en RCP y protección de vía aérea</p>
                                                 <div className="text-center text-md-end my-2">
-                                                    <a href="#" className="btn-custom">Go somewhere</a>
+                                                    <a href="#" className="btn-custom">Ver más</a>
                                                 </div>
                                             </div>
                                     </motion.div>
                                 </div>
 
-                                <div className="col-12 col-md-8 col-lg-5 my-3">
+                                <div className="col-12 col-md-6 col-lg-5 my-3">
                                     <div className="card card-custom">
                                         <img src={card2} className="card-img-top" alt="..."/>
                                         <div className="card-body">
-                                            <h5 className="card-title fw-bold">Card title</h5>
-                                            <p className="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title fw-bold">RCP avanzado en Neonatología</h5>
+                                            <p className="card-text mb-3">Participa de las últimos procedimientos en RCP y protección de vía aérea en Neonatología.</p>
                                             <div className="text-center text-md-end my-2">
-                                                <a href="#" className="btn-custom">Go somewhere</a>
+                                                <a href="#" className="btn-custom">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -219,10 +219,10 @@ const Updates = () => {
                                     <div className="card card-custom">
                                         <img src={card3} className="card-img-top" alt="..."/>
                                         <div className="card-body">
-                                            <h5 className="card-title fw-bold">Card title</h5>
-                                            <p className="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title fw-bold">Manejo de ABC avanzado en emergencias</h5>
+                                            <p className="card-text mb-3">Participa de la capacitación teórico-práctico del manejo avanzado del ABC.</p>
                                             <div className="text-center text-md-end my-2">
-                                                <a href="#" className="btn-custom">Go somewhere</a>
+                                                <a href="#" className="btn-custom">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -232,10 +232,10 @@ const Updates = () => {
                                     <div className="card card-custom">
                                         <img src={card4} className="card-img-top" alt="..."/>
                                         <div className="card-body">
-                                            <h5 className="card-title fw-bold">Card title</h5>
-                                            <p className="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title fw-bold">Emergencias prehospitalaria</h5>
+                                            <p className="card-text mb-3">Participa de la capacitación teórico-práctico del manejo avanzo de atención prehospitalaria.</p>
                                             <div className="text-center text-md-end my-2">
-                                                <a href="#" className="btn-custom">Go somewhere</a>
+                                                <a href="#" className="btn-custom">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -250,18 +250,22 @@ const Updates = () => {
                 <section className="container">
                     <div className="row mt-5 justify-content-center ">
                         <div className="col-12 col-md-8">
+                            <div className="text-center">
+                                <h4 className="fw-bold my-3" >Descargables de estudio</h4>
+                                <p>En la siguiente tabla podrás acceder a bibliografía de utilidad en formato PDF.</p>
+                            </div>
                             <div className="table-responsive">
                                 <table className="table table-striped table-hover table-lg table-custom-updates">
-                                    <caption className="text-center">Lista de licencias</caption>
+                                    <caption className="text-center">Material de estudio</caption>
                                     <thead>
                                         <tr className="table-dark text-center">
-                                            <th>Licencias</th>
+                                            <th>Materiales de estudio</th>
                                             <th>Archivo</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th>Formulario de permiso de salida</th>
+                                            <th>Últimas bases de RCP</th>
                                             <th className="text-center">
                                                 <motion.div 
                                                     initial={{y: 0}}
@@ -274,7 +278,7 @@ const Updates = () => {
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th>Formulario de cambio de turno</th>
+                                            <th>El mobbing y el ambiente laboral</th>
                                             <th className="text-center">
                                                 <motion.div 
                                                     initial={{y: 0}}
@@ -287,7 +291,7 @@ const Updates = () => {
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th>Otro tipo de formulario a solicitar</th>
+                                            <th>Últimas actualizaciones en emergencias</th>
                                             <th className="text-center">
                                                 <motion.div 
                                                     initial={{y: 0}}

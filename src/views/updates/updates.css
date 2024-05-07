@@ -25,7 +25,7 @@
 .orange-rectangle-updates {
     position: absolute;
     top: -20px;
-    left: -20px;
+    left: -15px;
     width: 250px;
     height: 200px;
     background-color: #fab35d;
@@ -35,7 +35,7 @@
 .blue-rectangle-updates {
     position: absolute;
     bottom: -20px;
-    right: -20px;
+    right: -15px;
     width: 250px;
     height: 200px;
     background-color: #66adfe;
@@ -90,6 +90,10 @@
 
 .table-custom-updates thead tr th {
     background-color: black;
+}
+
+.table-custom-updates th {
+    background-color: none;
 }
 
 
