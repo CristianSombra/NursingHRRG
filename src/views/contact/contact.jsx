@@ -126,7 +126,7 @@ const Contact = () => {
 
             <section className="container-contact">
                 <div className="row my-5 d-flex justify-content-center mx-auto">
-                    <div className="col-7">
+                    <div className="col-12 col-md-9 col-lg-7">
                         <form className="" onSubmit={sendEmail} ref={form}>
                             <motion.div 
                                 className="row"

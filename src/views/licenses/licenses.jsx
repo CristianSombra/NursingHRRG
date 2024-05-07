@@ -123,6 +123,10 @@ const Licenses = () => {
             <section className="container">
                 <div className="row mt-5 justify-content-center ">
                     <div className="col-12 col-md-8">
+                            <div className="text-center">
+                                <h4 className="fw-bold my-3">Otras licencias descargables</h4>
+                                <p>En la siguiente tabla podrás acceder a otras licencias para descargar en formato PDF, para completar y enviar por <strong>GEN</strong>.</p>
+                            </div>
                         <div className="table-responsive">
                             <table className="table table-striped table-hover table-lg table-custom-licenses">
                                 <caption className="text-center">Lista de licencias</caption>
