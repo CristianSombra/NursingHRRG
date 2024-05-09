@@ -171,7 +171,7 @@ const Updates = () => {
                                 initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
                                 animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                                 transition={{duration: 1.2, delay: 0.4}}
-                                className="col-10 fw-bold my-3">
+                                className="fw-bold my-3">
                                     Capacitaciones mes de Mayo
                             </motion.h4>
                             <div className="row d-flex justify-content-around mx-auto">
