@@ -32,6 +32,15 @@
     height: auto;
 }
 
+.logoMobile {
+    width: 120px;
+    margin: 25px;
+}
+
+.titleMobile {
+    width: 320px;
+    margin: 25px;
+}
 
 .text-center {
     text-align: center;
@@ -71,7 +80,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 884px) {
     .img-custom-landing {
         width: 100%;
         height: 100%;
@@ -93,3 +102,4 @@
     }
 
 }
+
