@@ -9,6 +9,9 @@ import { BannerUpdates, BannerUpdatesMobile } from './updatesComponents/banner/b
 import { TitleUpdates, TitleUpdatesMobile } from './updatesComponents/title/titleUpdates';
 import UpdatesSections from './updatesComponents/updatesSections/updatesSections';
 import DownloadFiles from './updatesComponents/updatesDownloadFiles/updatesDownloadFiles';
+import TitleLicenses from './licensesComponents/title/titleLicenses';
+import LicensesFirstSection from './licensesComponents/licensesSection1/licensesFirstSection';
+import LicensesSecondSection from './licensesComponents/licensesSection2/licensesSecondSection';
 
 export {
     Navbar,
@@ -23,5 +26,8 @@ export {
     TitleUpdatesMobile,
     UpdatesSections,
     DownloadFiles,
+    TitleLicenses,
+    LicensesFirstSection,
+    LicensesSecondSection,
     Footer
 }
