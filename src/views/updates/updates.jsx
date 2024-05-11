@@ -194,7 +194,7 @@ const Updates = () => {
                                         <img src={card2} className="card-img-top" alt="..."/>
                                         <div className="card-body">
                                             <h5 className="card-title fw-bold">RCP avanzado en Neonatología</h5>
-                                            <p className="card-text mb-3">Participa de las últimos procedimientos en RCP y protección de vía aérea en Neonatología.</p>
+                                            <p className="card-text mb-3">Participa de las últimos procedimientos de RCP en Neonatología.</p>
                                             <div className="text-center text-md-end my-2">
                                                 <a href="#" className="btn-custom">Ver más</a>
                                             </div>
