@@ -175,7 +175,7 @@ const Updates = () => {
                                     Capacitaciones mes de Mayo
                             </motion.h4>
                             <div className="row d-flex justify-content-around mx-auto">
-                                <div className="col-12 col-md-6 col-lg-5 my-3">
+                                <div className="col-12 col-md-8 col-lg-5 my-3">
                                     <motion.div
                                         className="card card-custom">
                                             <img src={card1} className="card-img-top img-fluid" alt="..."/>
@@ -189,7 +189,7 @@ const Updates = () => {
                                     </motion.div>
                                 </div>
 
-                                <div className="col-12 col-md-6 col-lg-5 my-3">
+                                <div className="col-12 col-md-8 col-lg-5 my-3">
                                     <div className="card card-custom">
                                         <img src={card2} className="card-img-top" alt="..."/>
                                         <div className="card-body">

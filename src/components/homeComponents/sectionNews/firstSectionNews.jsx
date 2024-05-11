@@ -1,5 +1,5 @@
 import React from "react";
-import stand1 from '../../assets/stand1.png';
+import stand1 from '@/assets/stand1.png';
 
 
 const FirstSectionNews = () => {
