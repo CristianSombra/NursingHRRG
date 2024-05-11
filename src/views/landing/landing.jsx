@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import PageTransitionEvent from '../../components/pagetransition/pagetransition';
-import imgNurse from '../../assets/nurse.png';
-import logoLanding2 from '../../assets/logoLanding2.png';
-import titleMobile from '../../assets/titleMobile.png';
+import PageTransitionEvent from '@/components/pagetransition/pagetransition';
+import imgNurse from '@/assets/nurse.png';
+import logoLanding2 from '@/assets/logoLanding2.png';
+import titleMobile from '@/assets/titleMobile.png';
 import './landing.css';
 
 const Landing = () => {
@@ -14,15 +14,15 @@ const Landing = () => {
                 <div className="left-section d-none d-md-block">
                     <img src={imgNurse} alt="" className="img-fluid img-custom-landing"/>
                     <div className="text-overlay-landing">
-                                <motion.h4 
-                                    initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
-                                    animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
-                                    transition={{duration: 1.2, delay: 0.4}}
-                                    className="col-12 "
-                                >
-                                    "Si salvas una vida eres un héreo, pero si salvas 100 eres un <strong>enfermero</strong>".
-                                </motion.h4>
-                        </div>
+                        <motion.h4 
+                            initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
+                            animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
+                            transition={{duration: 1.2, delay: 0.4}}
+                            className="col-12 "
+                        >
+                            "Si salvas una vida eres un héroe, pero si salvas 100 eres un <strong>enfermero</strong>".
+                        </motion.h4>
+                    </div>
                 </div>
                 <div className="right-section">
                     <div className="text-center">
@@ -47,14 +47,14 @@ const Landing = () => {
                         </div>
                         <img src={titleMobile} alt="Logo" className="titleMobile"/>
                     </div>
-                    <div>
+                    <div className="d-flex justify-content-center">
                         <motion.p 
                                     initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
                                     animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                                     transition={{duration: 1.2, delay: 0.4}}
-                                    className="col-12 my-3 d-block d-md-none"
+                                    className="col-11 my-3 d-block d-md-none"
                                 >
-                                    "Si salvas una vida eres un héreo, pero si salvas 100 eres un <strong>enfermero</strong>".
+                                    "Si salvas una vida eres un héroe, pero si salvas 100 eres un <strong>enfermero</strong>".
                         </motion.p>
                     </div>
                 </div>
