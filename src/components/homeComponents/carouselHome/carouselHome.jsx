@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from '../../assets/img1.png';
-import img2 from '../../assets/img1.png';
-import img3 from '../../assets/img1.png';
+import img1 from '@/assets/img1.png';
+import img2 from '@/assets/img1.png';
+import img3 from '@/assets/img1.png';
 
 const CarouselHome = () => {
     return(
