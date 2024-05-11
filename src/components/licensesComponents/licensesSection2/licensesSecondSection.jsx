@@ -3,30 +3,31 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
-const DownloadFiles = () => {
+const LicensesSecondSection = () => {
+
     const basePath = '/';
     const pdfPath = basePath + "licences/";
 
     return(
         <div>
             <div className="row mt-5 justify-content-center ">
-                <div className="text-center">
-                    <h4 className="fw-bold my-3" >Descargables de estudio</h4>
-                    <p className="my-3">En la siguiente tabla podrás acceder a bibliografía de utilidad en formato PDF.</p>
+                <div className="text-center col-12 col-md-10">
+                    <h4 className="fw-bold my-3">Otras licencias descargables</h4>
+                    <p className="my-3">En la siguiente tabla podrás acceder a otras licencias para descargar en formato PDF, para completar y enviar por <strong>GEN</strong>.</p>
                 </div>
-                <div className="col-12 col-md-8 my-3">
+                <div className="col-12 col-md-10 col-lg-8 my-3">
                     <div className="table-responsive">
-                        <table className="table table-striped table-hover table-lg table-custom-updates">
-                            <caption className="text-center">Material de estudio</caption>
+                        <table className="table table-striped table-hover table-lg table-custom-licenses">
+                            <caption className="text-center">Lista de licencias</caption>
                             <thead>
                                 <tr className="table-dark text-center">
-                                    <th>Materiales de estudio</th>
+                                    <th>Licencias</th>
                                     <th>Archivo</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th>Últimas bases de RCP</th>
+                                    <th>Formulario de permiso de salida</th>
                                     <th className="text-center">
                                         <motion.div 
                                             initial={{y: 0}}
@@ -39,7 +40,7 @@ const DownloadFiles = () => {
                                     </th>
                                 </tr>
                                 <tr>
-                                    <th>El mobbing y el ambiente laboral</th>
+                                    <th>Formulario de cambio de turno</th>
                                     <th className="text-center">
                                         <motion.div 
                                             initial={{y: 0}}
@@ -52,7 +53,7 @@ const DownloadFiles = () => {
                                     </th>
                                 </tr>
                                 <tr>
-                                    <th>Últimas actualizaciones en emergencias</th>
+                                    <th>Otro tipo de formulario a solicitar</th>
                                     <th className="text-center">
                                         <motion.div 
                                             initial={{y: 0}}
@@ -73,4 +74,4 @@ const DownloadFiles = () => {
     )
 }
 
-export default DownloadFiles;
+export default LicensesSecondSection;
