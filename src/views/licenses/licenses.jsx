@@ -1,8 +1,8 @@
 import React from "react";
 import PageTransition from '../../components/pagetransition/pagetransition';
 import ScrollTop from '../../components/scrolltop/scrollTop';
-import './licenses.css';
 import { TitleLicenses, LicensesFirstSection, LicensesSecondSection } from "@/components/index";
+import '@/components/licensesComponents/licenses.css';
 
 const Licenses = () => {
     return(
