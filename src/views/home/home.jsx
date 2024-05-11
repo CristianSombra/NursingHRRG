@@ -2,10 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import PageTransition from '../../components/pagetransition/pagetransition';
 import ScrollTop from '../../components/scrolltop/scrollTop';
-import { CarouselHome } from "../../components/index";
+import { CarouselHome, FirstSectionNews } from "../../components/index";
 import bannerHome from '../../assets/bannerhome.jpg';
 import bannerHomeMobile from '../../assets/bannerhomemobile.jpg';
-import stand1 from '../../assets/stand1.png';
 import card1 from '../../assets/card1.png'
 import card2 from '../../assets/card2.png'
 import './home.css';
@@ -152,9 +151,7 @@ const Home = () => {
                         <p>Mantente actualizado de las últimas noticias o informaciones relacionadas a las actividades que se realizan, novedades, cambios, entre otros.</p>
                     </div>
                     <div className="col-11 col-md-8 col-lg-6">
-                        <img src={stand1} className="img-fluid img-custom-home my-3" alt="" />
-                        <h5 className="fw-bold text-center text-md-start">Semana de presentación de stands de Enfermería</h5>
-                        <p className="text-center text-md-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem itaque totam voluptate! Doloremque aliquam expedita earum quod? Libero, minus.</p>
+                        <FirstSectionNews/>
                     </div>
 
                     <div className="col-11 col-md-8 col-lg-4">
