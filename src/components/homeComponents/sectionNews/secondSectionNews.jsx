@@ -1,6 +1,6 @@
 import React from "react";
-import card1 from '@/assets/card1.png'
-import card2 from '@/assets/card2.png'
+import { Image } from "cloudinary-react";
+import imagesHome from '@/components/cloudinary/home/imagesHome';
 
 const SecondSectionNews = () => {
     return(
@@ -9,7 +9,7 @@ const SecondSectionNews = () => {
                 <div className="col-12">
                     <div className="row align-items-center">
                         <div className="col-12 col-lg-6 my-3">
-                            <img src={card1} className="img-fluid img-custom-home" alt="" />
+                            <Image cloudName="nursingStaff" publicId={imagesHome.card2} className="img-fluid img-custom-home" alt="" />
                         </div>
                         <div className="col-12 col-lg-6">
                             <h5 className="fw-bold text-center text-md-start">Ingreso a planta</h5>
@@ -20,7 +20,7 @@ const SecondSectionNews = () => {
                 <div className="col-12">
                     <div className="row align-items-center">
                         <div className="col-12 col-lg-6 my-3">
-                            <img src={card2} className="img-fluid img-custom-home" alt="" />
+                            <Image cloudName="nursingStaff" publicId={imagesHome.card3} className="img-fluid img-custom-home" alt="" />
                         </div>
                         <div className="col-12 col-lg-6">
                             <h5 className="fw-bold text-center text-md-start">Actividad en el RAM</h5>

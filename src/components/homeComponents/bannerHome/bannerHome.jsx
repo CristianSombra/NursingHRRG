@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import bannerHome from '@/assets/bannerhome.jpg';
-import bannerHomeMobile from '@/assets/bannerhomemobile.jpg';
+import { Image } from "cloudinary-react";
+import imagesHome from "@/components/cloudinary/home/imagesHome";
 
 const sentence = "Ser Enfermero es más que un oficio, es una fusión de Ciencia, Corazón, Fortaleza y Humanidad.";
 
@@ -41,7 +41,7 @@ const BannerHome = () => {
                         transition={{duration: 1.2, delay: 0.4}}
                         className="blue-rectangle-home"></motion.div>
                     <div className="image-container">
-                            <img src={bannerHome} className="img-fluid col-12" alt="" />
+                            <Image cloudName="nursingStaff" publicId={imagesHome.bannerHome} className="img-fluid col-12" alt="" />
                             <div className="image-overlay"></div>
                     </div>
                     <div className="text-overlay">
@@ -80,7 +80,7 @@ const BannerHome = () => {
                             Rio Grande, Tierra del Fuego
                     </motion.h5>
                     <div className="image-container mt-4">
-                        <img src={bannerHomeMobile} className="img-fluid" alt="" />
+                        <Image cloudName="nursingStaff" publicId={imagesHome.bannerHomeMobile} className="img-fluid" alt="" />
                         <div className="image-overlay"></div>
                     </div>
                 </div>

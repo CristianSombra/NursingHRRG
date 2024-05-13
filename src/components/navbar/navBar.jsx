@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import logoNav from '../../assets/logoNav.png';
+import { Image } from "cloudinary-react";
 import "./navBar.css";
+
+const logoNav = "https://res.cloudinary.com/nursingstaff/image/upload/v1715565542/nursingHRRG/Components/Navbar/logoNav_p32t8i.png";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +22,7 @@ const Navbar = () => {
             
                 <div className="container-fluid">
                     <Link to="/">
-                        <img src={logoNav} className="img-fluid" style={{width: '90px'}} alt="" />
+                    <Image cloudName="nursingstaff" publicId={logoNav} className="img-fluid" style={{width: '90px'}}/>
                     </Link>
                         <div className={`custom-menu-button d-lg-none ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                             <div></div>
