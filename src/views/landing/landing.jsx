@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Image } from "cloudinary-react";
+import imagesLanding from "@/components/cloudinary/landing/imagesLanding";
 import PageTransitionEvent from '@/components/pagetransition/pagetransition';
-import imgNurse from '@/assets/nurse.png';
-import logoLanding2 from '@/assets/logoLanding2.png';
-import titleMobile from '@/assets/titleMobile.png';
 import './landing.css';
 
 const Landing = () => {
@@ -12,7 +11,7 @@ const Landing = () => {
         <PageTransitionEvent>
             <div className="container-landing">
                 <div className="left-section d-none d-md-block">
-                    <img src={imgNurse} alt="" className="img-fluid img-custom-landing"/>
+                    <Image cloudName="nursingstaff" publicId={imagesLanding.imageLanding} className="img-fluid img-custom-landing"/>
                     <div className="text-overlay-landing">
                         <motion.h4 
                             initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
@@ -26,7 +25,7 @@ const Landing = () => {
                 </div>
                 <div className="right-section">
                     <div className="text-center">
-                        <img src={logoLanding2} alt="Logo" className="logoMobile"/>
+                        <Image cloudName="nursingstaff" publicId={imagesLanding.logoLanding1} alt="Logo" className="logoMobile"/>
                         <h1 className="fw-bold">Bienvenido</h1>
                         <div className="my-5">
                             <div className="mb-3">
@@ -45,7 +44,7 @@ const Landing = () => {
                                 </Link>
                             </div>
                         </div>
-                        <img src={titleMobile} alt="Logo" className="titleMobile"/>
+                        <Image cloudName="nursingstaff" publicId={imagesLanding.logoLanding2} alt="Logo" className="titleMobile"/>
                     </div>
                     <div className="d-flex justify-content-center">
                         <motion.p 
