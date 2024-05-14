@@ -1,7 +1,6 @@
 import React from "react";
-import img1 from '@/assets/img1.png';
-import img2 from '@/assets/img1.png';
-import img3 from '@/assets/img1.png';
+import { Image } from "cloudinary-react";
+import imagesHome from "../../cloudinary/home/imagesHome";
 
 const CarouselHome = () => {
     return(
@@ -13,13 +12,13 @@ const CarouselHome = () => {
         </div>
         <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={img1} className="d-block w-100" alt="" />
+                    <Image cloudName="nursingStaff" publicId={imagesHome.bannerNews} className="d-block w-100" alt="" />
                 </div>
                 <div className="carousel-item">
-                    <img src={img2} className="d-block w-100" alt="" />
+                    <Image cloudName="nursingStaff" publicId={imagesHome.bannerNews} className="d-block w-100" alt="" />
                 </div>
                 <div className="carousel-item">
-                    <img src={img3} className="d-block w-100" alt="" />
+                    <Image cloudName="nursingStaff" publicId={imagesHome.bannerNews} className="d-block w-100" alt="" />
                 </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">

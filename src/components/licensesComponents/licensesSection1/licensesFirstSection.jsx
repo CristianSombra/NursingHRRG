@@ -1,9 +1,7 @@
 import React from "react";
+import { Image } from "cloudinary-react";
 import { motion } from "framer-motion";
-import cardlicences1 from '@/assets/cardlicences1.png';
-import cardlicences2 from '@/assets/cardlicences2.png';
-import cardlicences3 from '@/assets/cardlicences3.png';
-import cardlicences4 from '@/assets/cardlicences4.png';
+import imagesLicenses from "@/components/cloudinary/licenses/imagesLicenses";
 
 const LicensesFirstSection = () => {
 
@@ -15,10 +13,14 @@ const LicensesFirstSection = () => {
         <div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
-                    <motion.img 
+                    <motion.div> 
+                        <Image
+                        cloudName="nursingStaff"
+                        publicId={imagesLicenses.cardLar}
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.3 }}
-                        src={cardlicences1} className="img-fluid img-custom" alt="" />
+                        className="img-fluid img-custom" alt="" />
+                    </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia especial verano</h4>
@@ -30,10 +32,14 @@ const LicensesFirstSection = () => {
             </div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
-                    <motion.img 
+                    <motion.div> 
+                        <Image
+                        cloudName="nursingStaff"
+                        publicId={imagesLicenses.cardLei}
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.3 }}
-                        src={cardlicences2} className="img-fluid" alt="" />
+                        className="img-fluid img-custom" alt="" />
+                    </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia especial invierno</h4>
@@ -45,10 +51,14 @@ const LicensesFirstSection = () => {
             </div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
-                    <motion.img 
+                    <motion.div> 
+                        <Image
+                        cloudName="nursingStaff"
+                        publicId={imagesLicenses.card14F}
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.3 }}
-                        src={cardlicences3} className="img-fluid" alt="" />
+                        className="img-fluid img-custom" alt="" />
+                    </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia artículo 14F</h4>
@@ -60,10 +70,14 @@ const LicensesFirstSection = () => {
             </div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
-                    <motion.img 
+                    <motion.div> 
+                        <Image
+                        cloudName="nursingStaff"
+                        publicId={imagesLicenses.card14H}
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.3 }}
-                        src={cardlicences4} className="img-fluid" alt="" />
+                        className="img-fluid img-custom" alt="" />
+                    </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia artículo 14H</h4>
