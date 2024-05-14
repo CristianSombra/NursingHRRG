@@ -110,3 +110,14 @@
 
 }
 
+@media (max-width: 376px) {
+    .logoMobile {
+        width: 110px;
+        margin: 20px;
+    }
+    
+    .titleMobile {
+        width: 320px;
+        margin: 16px;
+    }
+}

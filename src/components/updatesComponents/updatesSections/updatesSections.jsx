@@ -1,9 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import card1 from '@/assets/cardupdate1.png';
-import card2 from '@/assets/cardupdate2.png';
-import card3 from '@/assets/cardupdate3.png';
-import card4 from '@/assets/cardupdate4.png';
+import { Image } from "cloudinary-react";
+import { inMaintenance }  from "@/components/cloudinary/updates/imagesUpdates";
 
 const UpdatesSections = () => {
     return(
@@ -21,10 +19,10 @@ const UpdatesSections = () => {
                         <div className="col-12 col-md-8 col-lg-5 my-3">
                             <motion.div
                                 className="card card-custom">
-                                    <img src={card1} className="card-img-top img-fluid" alt="..."/>
+                                    <Image cloudName="nursingStaff" publicId={inMaintenance} className="card-img-top img-fluid" alt="..."/>
                                     <div className="card-body">
-                                        <h5 className="card-title fw-bold">Actualización de RCP avanzado</h5>
-                                        <p className="card-text mb-3">Participa de las últimos procedimientos en RCP y protección de vía aérea</p>
+                                        <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
+                                        <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
                                         <div className="text-center text-md-end my-2">
                                             <a href="#" className="btn-custom">Ver más</a>
                                         </div>
@@ -33,10 +31,10 @@ const UpdatesSections = () => {
                         </div>
                         <div className="col-12 col-md-8 col-lg-5 my-3">
                             <div className="card card-custom">
-                                <img src={card2} className="card-img-top" alt="..."/>
+                                <Image cloudName="nursingStaff" publicId={inMaintenance} className="card-img-top img-fluid" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title fw-bold">RCP avanzado en Neonatología</h5>
-                                    <p className="card-text mb-3">Participa de las últimos procedimientos de RCP en Neonatología.</p>
+                                    <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
+                                    <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
                                     <div className="text-center text-md-end my-2">
                                         <a href="#" className="btn-custom">Ver más</a>
                                     </div>
@@ -58,10 +56,10 @@ const UpdatesSections = () => {
                     <div className="row d-flex justify-content-around mx-auto">
                         <div className="col-12 col-md-8 col-lg-5 my-3">
                             <div className="card card-custom">
-                                <img src={card3} className="card-img-top" alt="..."/>
+                                <Image cloudName="nursingStaff" publicId={inMaintenance} className="card-img-top img-fluid"  alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title fw-bold">Manejo de ABC avanzado en emergencias</h5>
-                                    <p className="card-text mb-3">Participa de la capacitación teórico-práctico del manejo avanzado del ABC.</p>
+                                    <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
+                                    <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
                                     <div className="text-center text-md-end my-2">
                                         <a href="#" className="btn-custom">Ver más</a>
                                     </div>
@@ -70,10 +68,10 @@ const UpdatesSections = () => {
                         </div>
                         <div className="col-12 col-md-8 col-lg-5 my-3">
                             <div className="card card-custom">
-                                <img src={card4} className="card-img-top" alt="..."/>
+                                <Image cloudName="nursingStaff" publicId={inMaintenance} className="card-img-top img-fluid"  alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title fw-bold">Emergencias prehospitalaria</h5>
-                                    <p className="card-text mb-3">Participa de la capacitación teórico-práctico del manejo avanzo de atención prehospitalaria.</p>
+                                    <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
+                                    <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
                                     <div className="text-center text-md-end my-2">
                                         <a href="#" className="btn-custom">Ver más</a>
                                     </div>
