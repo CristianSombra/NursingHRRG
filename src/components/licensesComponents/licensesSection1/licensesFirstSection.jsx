@@ -13,13 +13,14 @@ const LicensesFirstSection = () => {
         <div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
-                    <motion.div> 
-                        <Image
-                        cloudName="nursingStaff"
-                        publicId={imagesLicenses.cardLar}
+                    <motion.div
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.3 }}
-                        className="img-fluid img-custom" alt="" />
+                        > 
+                            <Image
+                            cloudName="nursingStaff"
+                            publicId={imagesLicenses.cardLar}
+                            className="img-fluid img-custom" alt="" />
                     </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
@@ -32,13 +33,14 @@ const LicensesFirstSection = () => {
             </div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
-                    <motion.div> 
-                        <Image
-                        cloudName="nursingStaff"
-                        publicId={imagesLicenses.cardLei}
+                    <motion.div
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.3 }}
-                        className="img-fluid img-custom" alt="" />
+                        > 
+                            <Image
+                            cloudName="nursingStaff"
+                            publicId={imagesLicenses.cardLei}
+                            className="img-fluid img-custom" alt="" />
                     </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
@@ -51,13 +53,14 @@ const LicensesFirstSection = () => {
             </div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
-                    <motion.div> 
-                        <Image
-                        cloudName="nursingStaff"
-                        publicId={imagesLicenses.card14F}
+                    <motion.div
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.3 }}
-                        className="img-fluid img-custom" alt="" />
+                        > 
+                            <Image
+                            cloudName="nursingStaff"
+                            publicId={imagesLicenses.card14F}
+                            className="img-fluid img-custom" alt="" />
                     </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
@@ -70,13 +73,14 @@ const LicensesFirstSection = () => {
             </div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
-                    <motion.div> 
-                        <Image
-                        cloudName="nursingStaff"
-                        publicId={imagesLicenses.card14H}
+                    <motion.div
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.3 }}
-                        className="img-fluid img-custom" alt="" />
+                        > 
+                            <Image
+                            cloudName="nursingStaff"
+                            publicId={imagesLicenses.card14H}
+                            className="img-fluid img-custom" alt="" />
                     </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
