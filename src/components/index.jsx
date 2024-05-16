@@ -1,5 +1,6 @@
 import Navbar from './navbar/navBar';
 import Footer from './footer/footer';
+import SpinnerLoader from './spinnerLoader/spinnerLoader';
 import CarouselHome from './homeComponents/carouselHome/carouselHome';
 import FirstSectionNews from './homeComponents/sectionNews/firstSectionNews';
 import SecondSectionNews from './homeComponents/sectionNews/secondSectionNews';
@@ -15,6 +16,7 @@ import LicensesSecondSection from './licensesComponents/licensesSection2/license
 
 export {
     Navbar,
+    SpinnerLoader,
     BannerHome,
     CarouselHome,
     FirstSectionNews,
