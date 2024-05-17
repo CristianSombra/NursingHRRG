@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
-import PageTransition from '../../components/pagetransition/pagetransition';
-import ScrollTop from '../../components/scrolltop/scrollTop';
+import PageTransition from '@/components/pagetransition/pagetransition';
+import ScrollTop from '@/components/scrolltop/scrollTop';
 import { motion } from 'framer-motion';
 import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
