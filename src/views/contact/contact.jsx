@@ -15,8 +15,8 @@ const Contact = () => {
         message: "",
     });
 
-    const serviceID = ''; // Completar datos
-    const templateID = ''; // completar datos
+    const serviceID = 'default_service';
+    const templateID = 'template_j8y46ha';
     
     const form = useRef();
     
@@ -31,7 +31,7 @@ const Contact = () => {
         }
     
         emailjs
-        .sendForm(serviceID, templateID, form.current, "5_qXvhPuX4Xyj9IFk") // Completar datos
+        .sendForm(serviceID, templateID, form.current, "EKxeOba6KbWeMq6Rg") // Completar datos
         .then((result) => {
             console.log(result.text);
             resetForm();
