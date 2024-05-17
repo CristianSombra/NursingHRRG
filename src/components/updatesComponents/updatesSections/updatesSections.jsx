@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Image } from "cloudinary-react";
 import { inMaintenance }  from "@/components/cloudinary/updates/imagesUpdates";
+import ModalInformationA from "@/components/modalInformation/modalInformation";
 
 const UpdatesSections = () => {
     return(
@@ -24,7 +25,15 @@ const UpdatesSections = () => {
                                         <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
                                         <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
                                         <div className="text-center text-md-end my-2">
-                                            <a href="#" className="btn-custom">Ver más</a>
+                                            {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
+                                            <button 
+                                                className="btn-custom"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#modal-4"
+                                                >
+                                                Ver más
+                                            </button>
+                                            <ModalInformationA/>
                                         </div>
                                     </div>
                             </motion.div>
@@ -36,7 +45,15 @@ const UpdatesSections = () => {
                                     <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
                                     <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
                                     <div className="text-center text-md-end my-2">
-                                        <a href="#" className="btn-custom">Ver más</a>
+                                        {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
+                                        <button 
+                                            className="btn-custom"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#modal-4"
+                                            >
+                                            Ver más
+                                        </button>
+                                        <ModalInformationA/>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +78,15 @@ const UpdatesSections = () => {
                                     <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
                                     <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
                                     <div className="text-center text-md-end my-2">
-                                        <a href="#" className="btn-custom">Ver más</a>
+                                        {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
+                                        <button 
+                                            className="btn-custom"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#modal-4"
+                                            >
+                                            Ver más
+                                        </button>
+                                        <ModalInformationA/>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +98,15 @@ const UpdatesSections = () => {
                                     <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
                                     <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
                                     <div className="text-center text-md-end my-2">
-                                        <a href="#" className="btn-custom">Ver más</a>
+                                        {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
+                                        <button 
+                                            className="btn-custom"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#modal-4"
+                                            >
+                                            Ver más
+                                        </button>
+                                        <ModalInformationA/>
                                     </div>
                                 </div>
                             </div>

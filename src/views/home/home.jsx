@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import PageTransition from '@/components/pagetransition/pagetransition';
 import ScrollTop from '@/components/scrolltop/scrollTop';
 import { CarouselHome, FirstSectionNews, FrequentQuestions, SecondSectionNews, BannerHome } from "@/components/index";
+import ModalInformationA from "@/components/modalInformation/modalInformation";
 import '@/components/homeComponents/home.css';
 
 
@@ -36,7 +37,15 @@ const Home = () => {
                     </div>
 
                     <div className="col-12">
-                        <button href="" className="btn-custom">Inscribirme</button>
+                        {/* <button href="" className="btn-custom">Inscribirme</button> */}
+                        <button 
+                            className="btn-custom"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal-4"
+                            >
+                            Inscribirme
+                        </button>
+                        <ModalInformationA/>
                     </div>
 
                 </div>
