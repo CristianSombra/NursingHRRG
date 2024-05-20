@@ -15,14 +15,16 @@ const SecondSectionNews = () => {
                         <div className="col-12 col-lg-6">
                             <h5 className="fw-bold text-center text-md-start">Ingreso a planta</h5>
                             <p className="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dignissimos?</p>
+                            <div className="d-flex justify-content-center justify-content-md-end mb-4">
+                            <button 
+                                className="btn-custom"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-2"
+                                >
+                                    Ver más
+                            </button>
                         </div>
-                        <button 
-                            className="btn-custom"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal-2"
-                            >
-                                Ver más
-                        </button>
+                        </div>
                         <ModalSecondSectionA/>
                     </div>
                 </div>
@@ -34,14 +36,17 @@ const SecondSectionNews = () => {
                         <div className="col-12 col-lg-6">
                             <h5 className="fw-bold text-center text-md-start">Actividad en el RAM</h5>
                             <p className="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dignissimos?</p>
+                            <div className="d-flex justify-content-center justify-content-md-end mb-4">
+                            <button 
+                                className="btn-custom"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-3"
+                                >
+                                    Ver más
+                            </button>
                         </div>
-                        <button 
-                            className="btn-custom"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal-3"
-                            >
-                                Ver más
-                        </button>
+                        </div>
+                        
                         <ModalSecondSectionB/>
                     </div>
                 </div>
