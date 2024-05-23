@@ -66,11 +66,11 @@ const Home = () => {
                     <div className="col-12 col-md-10">
                         <p>Mantente actualizado de las últimas noticias o informaciones relacionadas a las actividades que se realizan, novedades, cambios, entre otros.</p>
                     </div>
-                    <div className="col-11 col-md-8 col-lg-6">
+                    <div className="col-12 col-md-10 col-lg-8">
                         <FirstSectionNews/>
                     </div>
 
-                    <div className="col-11 col-md-8 col-lg-4">
+                    <div className="col-12 col-md-10 col-lg-8">
                         <SecondSectionNews/>
                     </div>
 
