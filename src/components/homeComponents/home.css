@@ -74,7 +74,7 @@
 }
 
 .custom-modal-dialog {
-    margin: auto;
+    margin: auto; /* Eliminar cualquier margen */
 }
 
 
@@ -101,19 +101,19 @@
     }
 
     .custom-modal-dialog {
-        max-width: 80%;
+        max-width: 96%;
     }
 
 }
 
 @media (min-width: 992px) {
     .custom-modal-dialog {
-        max-width: 60%;
+        max-width: 70%;
     }
 }
 
 @media (min-width: 1200px) {
     .custom-modal-dialog {
-        max-width: 50%;
+        max-width: 60%;
     }
 }

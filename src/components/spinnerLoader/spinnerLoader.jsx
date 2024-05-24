@@ -38,6 +38,7 @@ const SpinnerLoader = () => {
                 initial={{opacity:0}}
                 animate={{opacity:1}}
                 transition={{delay: 1.9}}
+                style={{fontSize: '1.8rem'}}
                 role="img" aria-label="emoji">😃</motion.span>
         </div>
     );

@@ -34,7 +34,7 @@ const SecondSectionNews = () => {
                             <Image cloudName="nursingStaff" publicId={imagesHome.card3} className="img-fluid img-custom-home" alt="" />
                         </div>
                         <div className="col-12 col-lg-12">
-                            <h5 className="fw-bold text-center text-md-start">Particiación</h5>
+                            <h5 className="fw-bold text-center text-md-start">Último break de la Expo</h5>
                             <p className="text-center text-md-start">Descanso junto a Disertantes, colegas del hospital y estudiantes del cent 35.</p>
                             <div className="d-flex flex-column flex-md-row justify-content-center justify-content-md-end align-items-center align-items-md-start mb-4">
                                 <button

@@ -64,7 +64,7 @@ const Home = () => {
                             <h4 className="fw-bold">Novedades</h4>
                     </motion.div>
                     <div className="col-12 col-md-10">
-                        <p>Mantente actualizado de las últimas noticias o informaciones relacionadas a las actividades que se realizan, novedades, cambios, entre otros.</p>
+                        <p>Bienvenidos a nuestra sección de novedades, donde compartimos los últimos avances y noticias en el campo de la enfermería, ofreciendo también recursos valiosos para apoyar a nuestra práctica profesional y crecimiento continuo.</p>
                     </div>
                     <div className="col-12 col-md-10 col-lg-8">
                         <FirstSectionNews/>
