@@ -27,7 +27,7 @@ const LicensesFirstSection = () => {
                     <h4 className="fw-bold mt-3">Licencia especial verano</h4>
                     <p className="my-3 mb-4">Esta licencia se puede tomar desde diciembre a diciembre de cada año. Se debe solicitar al jefe del servicio con 2 semanas de anticipación.</p>
                     <div className="text-center text-md-center my-2">
-                        <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
+                        <a href={pdfPath + "LAR.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@ const LicensesFirstSection = () => {
                     <h4 className="fw-bold mt-3">Licencia artículo 14F</h4>
                     <p className="my-3 mb-4">Esta licencia se puede tomar dentro del año en curso, no aplica descuento, son 7 anuales. Se debe solicitar al jefe del servicio con 48hs de anticipación.</p>
                     <div className="text-center text-md-center my-2">
-                        <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
+                        <a href={pdfPath + "14F.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@ const LicensesFirstSection = () => {
                     <h4 className="fw-bold mt-3">Licencia artículo 14H</h4>
                     <p className="my-3 mb-4">Esta licencia se puede tomar dentro del año en curso, no aplica descuento, son 7 anuales. Se debe solicitar al jefe del servicio con 48hs de anticipación.</p>
                     <div className="text-center text-md-center my-2">
-                        <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
+                        <a href={pdfPath + "14H.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
                     </div>
                 </div>
             </div>
