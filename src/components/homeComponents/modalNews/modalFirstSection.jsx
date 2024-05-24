@@ -9,11 +9,18 @@ const ModalFirstSection = () => {
                 <div className="modal-dialog modal-dialog-centered custom-modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title">Titulo del modal</h5>
+                            <h4 className="modal-title fw-bold">
+                                Primer Expo Enfermería 2024
+                            </h4>
                         </div>
                         <div className="modal-body">
                             <Image cloudName="nursingStaff" publicId={imagesHome.card1} className="img-fluid" alt=""/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quos.
+                            <p 
+                            className="mt-4" 
+                            style={{textAlign: 'justify'}}
+                            >
+                                Nos complace haber realizado <strong>la primera exposición del año</strong>, donde destacados profesionales y licenciados de servicios como Enfermería de Partos, Terapia Intensiva Pediátrica, Terapia Intensiva de Adultos, Guardia Central de Emergencias, Neonatología, Infectología, Consultorios Externos, Hemodiálisis, Oncología, entre otros, compartieron valiosas experiencias y actualizaciones en enfermería. Fue un evento enriquecedor que promovió el intercambio de conocimientos y el <strong>fortalecimiento de nuestra comunidad profesional</strong>.
+                            </p>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
