@@ -12,7 +12,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseThree" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseFour" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the Four item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseFive" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the Five item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseSix" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the Six item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseSeven" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the Seven item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseEight" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingEight" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the Six item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseNine" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingNine" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <strong>This is the Seven item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
                         </div>
                     </div>
                 </div>

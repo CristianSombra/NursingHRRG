@@ -118,14 +118,14 @@ const Contact = () => {
                             animate={{opacity:1, filter: 'blur(0)'}}
                             transition={{duration: 1.2, delay: 0.6}}
                             >
-                                Puedes contactarte con nosotros, si no eres personal del hospital pero eres un enfermero entusiasta puedes enviarnos un mensaje.
+                                Esta sección está destinada a mantener contacto con la comunidad profesional de enfermería, tanto a nivel individual como institucional. Estamos aquí para escuchar tus consultas, utiliza nuestro formulario de contacto o nuestra línea de WhatsApp para conectarte con nosotros. Esperamos colaborar juntos en la búsqueda de la excelencia en el cuidado de la salud.
                         </motion.p>
                     </div>
                 </div>
             </section>
 
             <section className="container-contact">
-                <div className="row my-5 d-flex justify-content-center mx-auto">
+                <div className="row my-5 d-flex justify-content-center mx-auto text-center">
                     <div className="col-12 col-md-9 col-lg-7">
                         <form className="" onSubmit={sendEmail} ref={form}>
                             <motion.div 
@@ -135,6 +135,10 @@ const Contact = () => {
                                 transition={{duration: 1.6, delay: 0.6}}
                                 >
                                 <h4 className="fw-bold">Escríbenos</h4>
+                                <p className="my-3">
+                                    Este formulario de contacto está disponible para todos los <strong>profesionales enfermeros</strong> e <strong>instituciones</strong> interesadas en comunicarse con el <strong>Departamento de Enfermería del Hospital Regional Río Grande</strong>. Nos complace atender cualquier consulta relacionados con temas laborales o cualquier otra inquietud relevante para nuestra práctica profesional. Por favor, <strong>completa el formulario</strong> a continuación y te responderemos a la brevedad posible. Apreciamos tu interés en comunicarte con nosotros.
+                                </p>
+
                                 <div className="col-12 col-md-12 col-lg-6 mt-5 position-relative">
                                     <input 
                                         type="text" 
@@ -199,9 +203,22 @@ const Contact = () => {
 
                     <div className="col-12 mt-5 text-center">
                         <div className="row d-flex justify-content-center align-items-center">
-                            <h4 className="fw-bold">Escríbenos</h4>
-                            <div className="col-12 col-md-10 col-lg-4">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem itaque totam voluptate! Doloremque aliquam expedita earum quod? Libero, minus.</p>
+                            <h4 className="fw-bold">WhatsApp Corporativo</h4>
+                            <div className="col-12 col-md-10 col-lg-5">
+                                <p 
+                                className="my-5"
+                                    >
+                                    Esta vía de comunicación está <strong>destinada exclusivamente</strong> a los <strong>enfermeros activos</strong> del <strong>Hospital Regional Río Grande</strong>, por lo que no se responderan mensajes ajenos al plantel activo de la institución. Si eres parte de nuestro equipo y deseas <strong>contactar</strong> al <strong>Departamento de Enfermería</strong> por un tema específico laboral, por favor haz click en contacto. Tu consulta será atendida a la brevedad posible.
+                                </p>
+                                <div className="d-none d-lg-block">
+                                    <a 
+                                        href="https://wa.me/5492964613783" 
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <button className="p-3 btn-custom">Contacto</button>
+                                    </a>
+                                </div>
                             </div>
                             <motion.div
                                 initial={{x: 50, opacity: 0, filter: 'blur(5px)'}}
@@ -211,10 +228,17 @@ const Contact = () => {
                                 >
                                 <img src={imgWhatsApp} className="img-fluid my-3" style={{width: '60%'}} alt="" />
                             </motion.div>
+                            <div className="d-lg-none my-3">
+                                <a 
+                                    href="https://wa.me/5492964613783" 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <button className="p-3 btn-custom">Contacto</button>
+                                </a>
+                            </div>
                         </div>
-
                     </div>
-                    
                 </div>
             </section>
 
