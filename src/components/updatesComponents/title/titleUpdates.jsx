@@ -18,7 +18,7 @@ const TitleUpdates = () => {
                         animate={{opacity:1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.6}}
                     >
-                        Puedes visualizar las capcitaciones que quieras realizar, para planificarte con anticipacion y poder  formar parte de la experiencia contribuir a tu formación profesional.
+                        En ésta sección podrás visualizar todas las <strong>capacitaciones disponibles</strong> para planificarte con anticipación y formar parte de la formación contínua. Esto te permitirá contribuir de manera significativa a tu desarrollo profesional, asegurando que aproveches al máximo las oportunidades de aprendizaje.
                     </motion.p>
                 </div>
             </div>
@@ -44,7 +44,7 @@ const TitleUpdatesMobile = () => {
                         animate={{opacity:1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.6}}
                     >
-                        Puedes visualizar las capcitaciones que quieras realizar, para planificarte con anticipacion y poder  formar parte de la experiencia contribuir a tu formación profesional.
+                        En ésta sección podrás visualizar todas las <strong>capacitaciones disponibles</strong> para planificarte con anticipación y formar parte de la formación contínua. Esto te permitirá contribuir de manera significativa a tu desarrollo profesional, asegurando que aproveches al máximo las oportunidades de aprendizaje.
                     </motion.p>
                 </div>
             </div>

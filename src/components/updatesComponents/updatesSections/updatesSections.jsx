@@ -7,14 +7,14 @@ import ModalInformationA from "@/components/modalInformation/modalInformation";
 const UpdatesSections = () => {
     return(
         <div>
-            <div className="row my-5 d-flex justify-content-center">
+            <div className="row my-3 d-flex justify-content-center">
                 <div className="col-12">
                     <motion.h4 
                         initial={{x: 50, opacity: 0, filter: 'blur(6px)'}}
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.4}}
                         className="fw-bold my-3">
-                            Capacitaciones mes de Mayo
+                            Capacitaciones mes de Junio
                     </motion.h4>
                     <div className="row d-flex justify-content-around mx-auto">
                         <div className="col-12 col-md-8 col-lg-5 my-3">
@@ -67,7 +67,7 @@ const UpdatesSections = () => {
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.4}}
                         className="fw-bold mt-5 my-3">
-                            Capacitaciones mes de Junio
+                            Capacitaciones mes de Julio
                     </motion.h4>
                 </div>
                     <div className="row d-flex justify-content-around mx-auto">

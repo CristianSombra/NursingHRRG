@@ -9,7 +9,7 @@ const DownloadFiles = () => {
 
     return(
         <div>
-            <div className="row mt-5 justify-content-center ">
+            <div className="row mt-4 justify-content-center ">
                 <div className="text-center">
                     <h4 className="fw-bold my-3" >Descargables de estudio</h4>
                     <p className="my-3">En la siguiente tabla podrás acceder a bibliografía de utilidad en formato PDF.</p>
