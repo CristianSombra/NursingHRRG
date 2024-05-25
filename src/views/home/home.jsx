@@ -89,7 +89,11 @@ const Home = () => {
                             <h4 className="fw-bold">Preguntas frecuentes</h4>
                     </motion.div>
                     <div className="col-12 col-md-10">
-                        <p>Mantente actualizado de las últimas noticias o informaciones relacionadas a las actividades que se realizan, novedades, cambios, entre otros.</p>
+                        <p
+                            style={{textAlign: 'justify'}}
+                            >
+                            Bienvenido a nuestra sección de Preguntas Frecuentes. Aquí encontrarás respuestas a las consultas más comunes. Nuestro objetivo es proporcionarte toda la información necesaria para una mejor experiencia al momento de tener que realizar alguna acción. Si no encuentras la respuesta que buscas, no dudes en ponerte en contacto con nosotros enviándonos un mensaje en la <strong>sección de contacto</strong>.
+                        </p>
                     </div>
 
                     <div className="col-12 col-md-10 col-lg-10 mx-auto">
