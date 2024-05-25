@@ -60,7 +60,7 @@ const Navbar = () => {
                                 whileHover={{y: -3}}
                                 transition={{duration: 0.1}}
                                 >
-                                <Link to="/licences" className="nav-link" onClick={closeMenu}>
+                                <Link to="/licenses" className="nav-link" onClick={closeMenu}>
                                     Licencias
                                 </Link>
                             </motion.div>
