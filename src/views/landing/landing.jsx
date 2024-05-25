@@ -39,7 +39,7 @@ const Landing = () => {
                                 </Link>
                             </div>
                             <div>
-                                <Link to="/licences">
+                                <Link to="/licenses">
                                     <button className="btn-custom-landing" >Licencias</button>
                                 </Link>
                             </div>
