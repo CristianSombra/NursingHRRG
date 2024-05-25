@@ -75,18 +75,18 @@ const BannerUpdates = () => {
 const BannerUpdatesMobile = () => {
     return(
         <div>
-            <div className="row my-4 d-flex justify-content-center text-center d-md-none">
+            <div className="row d-flex justify-content-center text-center d-md-none">
                 <div className="col">
                     <motion.div 
                         initial={{x: 50, opacity: 0, filter: 'blur(5px)'}}
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.6, delay: 0.6}}
-                        className="image-container my-3">
+                        className="image-container">
                             <Image cloudName="nurginStaff" publicId={bannerUpdatesMobile} className="img-fluid" alt="" />
                             <div className="image-overlay"></div>
                     </motion.div>
                 </div>
-                <div className="col-12">
+                <div className="col-12 mt-4">
                     <motion.p
                         variants={textContainerVariants}
                         initial="hidden"
