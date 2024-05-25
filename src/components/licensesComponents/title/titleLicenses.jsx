@@ -5,7 +5,7 @@ const TitleLicenses = () => {
     return(
         <div>
             <div className="row my-5 d-flex justify-content-center text-center">
-                <div className="col-8 my-5">
+                <div className="col-12 col-md-10 col-lg-8 my-5">
                     <motion.div 
                         initial={{x: -50, opacity: 0, filter: 'blur(6px)'}}
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}

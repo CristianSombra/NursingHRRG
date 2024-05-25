@@ -27,7 +27,7 @@ const Landing = () => {
                     <div className="text-center">
                         <Image cloudName="nursingstaff" publicId={imagesLanding.logoLanding1} alt="Logo" className="logoMobile"/>
                         <h1 className="fw-bold">Bienvenido</h1>
-                        <div className="my-5">
+                        <div className="mt-5 mb-4">
                             <div className="mb-3">
                                 <Link to="/home">
                                     <button className="btn-custom-landing" >Inicio</button>
@@ -51,7 +51,7 @@ const Landing = () => {
                                     initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
                                     animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                                     transition={{duration: 1.2, delay: 0.4}}
-                                    className="col-11 my-3 d-block d-md-none"
+                                    className="col-11 my-2 d-block d-md-none"
                                 >
                                     "Si salvas una vida eres un héroe, pero si salvas 100 eres un <strong>enfermero</strong>".
                         </motion.p>

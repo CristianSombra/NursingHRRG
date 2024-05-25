@@ -7,7 +7,7 @@ const FrequentQuestions = () => {
                 <div className="accordion-item accordion-custom">
                     <h2 className="accordion-header" id="headingOne">
                         <button className="accordion-button accordion-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            ¿Qué hacer si tengo un accidente en mi lugar de trabajo?
+                            ¿Qué debo hacer si tengo un accidente en mi lugar de trabajo?
                         </button>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
@@ -63,7 +63,7 @@ const FrequentQuestions = () => {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFive">
                         <button className="accordion-button accordion-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            ¿Qué hago en caso de llegar tarde a mi puesto de trabajo?
+                            ¿Qué debo hacer en caso de llegar tarde a mi puesto de trabajo?
                         </button>
                     </h2>
                     <div id="collapseFive" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
