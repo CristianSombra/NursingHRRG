@@ -40,7 +40,6 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseThree" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                        los artículos 14F y 14H lo solicitas con 48hs de anticipación
                         Tanto las licencias 14F y 14H deben solicitarse con <strong>48 hs de anticipación</strong>, y se debe solicitar al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
                         <a href="/licenses" className="p-2">
                             Ir a Licencias
