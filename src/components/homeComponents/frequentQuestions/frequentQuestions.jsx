@@ -24,7 +24,11 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                            La <strong>Licencia Anual Reglamentaria</strong> (LAR) deben solicitarse con 15 días de anticipación independientemente de la <strong>fracción</strong> que se requiera. En caso de excedido los 15 días el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
+                            Las <strong>Licencia Especial Invierno</strong> (LEI) deben solicitarse con una semana de anticiáción. En caso de excedido la semana el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
+                            <a href="/licenses" className="p-2">
+                                Ir a Licencias
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +40,11 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseThree" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                        los artículos 14F y 14H lo solicitas con 48hs de anticipación
+                        Tanto las licencias 14F y 14H deben solicitarse con <strong>48 hs de anticipación</strong>, y se debe solicitar al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
+                        <a href="/licenses" className="p-2">
+                            Ir a Licencias
+                        </a>
                         </div>
                     </div>
                 </div>

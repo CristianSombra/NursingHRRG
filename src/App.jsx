@@ -37,7 +37,7 @@ function App() {
             <Route exact path="/" element={<Landing />} />
             <Route exact path="/home" element={<Home />} />
             <Route exact path="/updates" element={<Updates />} />
-            <Route exact path="/licences" element={<Licenses />} />
+            <Route exact path="/licenses" element={<Licenses />} />
             <Route exact path="/contact" element={<Contact />} />
           </Routes>
           <ToastContainer />
