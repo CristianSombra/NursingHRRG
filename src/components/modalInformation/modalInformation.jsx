@@ -20,7 +20,7 @@ const ModalInformationA = () => {
                         <div className="modal-body text-center">
                             <Image cloudName="nursingStaff" publicId={clock} className="my-3" style={{ borderRadius: '0' }} />
                             <h4>Todavía no hay capacitaciones.</h4>
-                            <h6 className="text-muted my-3">Se está trabajando con la oficina de divisón de docencia e investigación</h6>
+                            <h6 className="text-muted my-3">Se está trabajando con la oficina de divisón de docencia e investigación.</h6>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
