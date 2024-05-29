@@ -1,13 +1,13 @@
 import React from "react";
 import { Image } from "cloudinary-react";
 import { motion } from "framer-motion";
+import { ModalQuestionLAR, ModalQuestionLEI, Modal14F, Modal14H } from "../../modalInformation/modalInformation";
 import imagesLicenses from "@/components/cloudinary/licenses/imagesLicenses";
 
 const LicensesFirstSection = () => {
 
     const basePath = '/';
     const pdfPath = basePath + "licences/";
-
 
     return(
         <div>
@@ -20,14 +20,25 @@ const LicensesFirstSection = () => {
                             <Image
                             cloudName="nursingStaff"
                             publicId={imagesLicenses.cardLar}
-                            className="img-fluid img-custom" alt="" />
+                            className="img-fluid" alt="" />
                     </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia especial verano</h4>
-                    <p className="my-3 mb-4">Esta licencia se puede tomar desde diciembre a diciembre de cada año. Se debe solicitar al jefe del servicio con 2 semanas de anticipación.</p>
-                    <div className="text-center text-md-center my-2">
+                    <p className="mb-4">Se puede tomar desde diciembre a diciembre de cada año. Se debe solicitar al Jefe del servicio con <strong>15 días de anticipación</strong>.</p>
+                    <div className="text-center text-md-center mt-3 mb-5">
                         <a href={pdfPath + "LAR.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
+                    </div>
+                    <div className="text-center text-md-center">    
+                        <span 
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal-5"
+                            className="btn-custom-secondary"
+                            style={{ cursor: 'pointer'}}
+                            >
+                                Preguntas frecuentes
+                        </span>
+                        <ModalQuestionLAR/>
                     </div>
                 </div>
             </div>
@@ -40,14 +51,25 @@ const LicensesFirstSection = () => {
                             <Image
                             cloudName="nursingStaff"
                             publicId={imagesLicenses.cardLei}
-                            className="img-fluid img-custom" alt="" />
+                            className="img-fluid" alt="" />
                     </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia especial invierno</h4>
-                    <p className="my-3 mb-4">Esta licencia se puede tomar desde mayo a octubre de cada año. Se debe solicitar al jefe del servicio con 2 semanas de anticipación.</p>
-                    <div className="text-center text-md-center my-2">
+                    <p className="mb-4">Se puede tomar desde junio a noviembre de cada año. Se debe solicitar al jefe del servicio con <strong>un semana de anticiáción</strong>.</p>
+                    <div className="text-center text-md-center mt-3 mb-5">
                         <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
+                    </div>
+                    <div className="text-center text-md-center">    
+                        <span 
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal-6"
+                            className="btn-custom-secondary"
+                            style={{ cursor: 'pointer'}}
+                            >
+                                Preguntas frecuentes
+                        </span>
+                        <ModalQuestionLEI/>
                     </div>
                 </div>
             </div>
@@ -60,14 +82,25 @@ const LicensesFirstSection = () => {
                             <Image
                             cloudName="nursingStaff"
                             publicId={imagesLicenses.card14F}
-                            className="img-fluid img-custom" alt="" />
+                            className="img-fluid" alt="" />
                     </motion.div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia artículo 14F</h4>
-                    <p className="my-3 mb-4">Esta licencia se puede tomar dentro del año en curso, no aplica descuento, son 7 anuales. Se debe solicitar al jefe del servicio con 48hs de anticipación.</p>
-                    <div className="text-center text-md-center my-2">
+                    <p className="mb-4">Esta licencia se puede tomar dentro del año en curso, no aplica descuento, son <strong>7 anuales</strong>.</p>
+                    <div className="text-center text-md-center mt-3 mb-5">
                         <a href={pdfPath + "14F.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
+                    </div>
+                    <div className="text-center text-md-center">    
+                        <span 
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal-7"
+                            className="btn-custom-secondary"
+                            style={{ cursor: 'pointer'}}
+                            >
+                                Preguntas frecuentes
+                        </span>
+                        <Modal14F/>
                     </div>
                 </div>
             </div>
@@ -85,9 +118,20 @@ const LicensesFirstSection = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia artículo 14H</h4>
-                    <p className="my-3 mb-4">Esta licencia se puede tomar dentro del año en curso, no aplica descuento, son 7 anuales. Se debe solicitar al jefe del servicio con 48hs de anticipación.</p>
-                    <div className="text-center text-md-center my-2">
+                    <p className="mb-4">Esta licencia se puede tomar dentro del año en curso, aplica un descuento que se refleja en el recibo de sueldo, son <strong>7 anuales</strong>.</p>
+                    <div className="text-center text-md-center mt-3 mb-5">
                         <a href={pdfPath + "14H.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
+                    </div>
+                    <div className="text-center text-md-center">    
+                        <span 
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal-8"
+                            className="btn-custom-secondary"
+                            style={{ cursor: 'pointer'}}
+                            >
+                                Preguntas frecuentes
+                        </span>
+                        <Modal14H/>
                     </div>
                 </div>
             </div>

@@ -118,7 +118,7 @@ const Contact = () => {
                             animate={{opacity:1, filter: 'blur(0)'}}
                             transition={{duration: 1.2, delay: 0.6}}
                             >
-                                Esta sección está destinada a mantener contacto con la comunidad profesional de enfermería, tanto a nivel individual como institucional. Estamos aquí para escuchar tus consultas, utiliza nuestro formulario de contacto o nuestra línea de WhatsApp para conectarte con nosotros. Esperamos colaborar juntos en la búsqueda de la excelencia en el cuidado de la salud.
+                                Esta sección está destinada a mantener contacto con la comunidad profesional de enfermería, tanto a nivel individual como institucional. Estamos aquí para escuchar tus consultas, utiliza nuestro <strong>formulario de contacto</strong> o nuestra línea de <strong>WhatsApp Corporativo</strong> para conectarte con nosotros. Esperamos colaborar juntos en la búsqueda de la excelencia en el cuidado de la salud.
                         </motion.p>
                     </div>
                 </div>
