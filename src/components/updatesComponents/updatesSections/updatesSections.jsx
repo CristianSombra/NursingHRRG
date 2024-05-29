@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Image } from "cloudinary-react";
 import { inMaintenance }  from "@/components/cloudinary/updates/imagesUpdates";
-import ModalInformationA from "@/components/modalInformation/modalInformation";
+import { ModalInformationA } from "@/components/modalInformation/modalInformation";
 
 const UpdatesSections = () => {
     return(

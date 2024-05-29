@@ -28,7 +28,7 @@ const TitleLicenses = () => {
                         animate={{opacity:1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.6}}
                         >
-                            Puedes visualizar los diferentes tipos de licencias existentes, con su explicacións, pasos y los archivos descargables. Recuerda que es bueno que organices con tus compañeros de turno para la correcta planificación del personal.
+                            En esta sección puedes visualizar los diferentes <strong>tipos de licencias</strong> existentes, con su <strong>información relevante</strong> y los <strong>archivos descargables</strong>. Recuerda que es bueno que organices con tus compañeros de turno para la correcta planificación del personal. Si tienes dudas sobre algo puedes ir a la sección de preguntas frecuentes.
                     </motion.p>
                 </div>
             </div>

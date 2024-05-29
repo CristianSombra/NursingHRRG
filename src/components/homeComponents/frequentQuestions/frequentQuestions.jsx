@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FrequentQuestions = () => {
     return (
@@ -25,10 +26,10 @@ const FrequentQuestions = () => {
                     <div id="collapseTwo" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             La <strong>Licencia Anual Reglamentaria</strong> (LAR) deben solicitarse con 15 días de anticipación independientemente de la <strong>fracción</strong> que se requiera. En caso de excedido los 15 días el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
-                            Las <strong>Licencia Especial Invierno</strong> (LEI) deben solicitarse con una semana de anticiáción. En caso de excedido la semana el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
-                            <a href="/licenses" className="p-2">
+                            Las <strong>Licencia Especial Invierno</strong> (LEI) deben solicitarse con una semana de anticipación. En caso de excedido la semana el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
+                            <Link to="/licenses" className="p-2">
                                 Ir a Licencias
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

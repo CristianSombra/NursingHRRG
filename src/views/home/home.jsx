@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import PageTransition from '@/components/pagetransition/pagetransition';
 import ScrollTop from '@/components/scrolltop/scrollTop';
 import { CarouselHome, FirstSectionNews, FrequentQuestions, SecondSectionNews, BannerHome } from "@/components/index";
-import ModalInformationA from "@/components/modalInformation/modalInformation";
+import { ModalInformationA } from "@/components/modalInformation/modalInformation";
 import '@/components/homeComponents/home.css';
 
 
@@ -96,11 +96,10 @@ const Home = () => {
                         </p>
                     </div>
 
-                    <div className="col-12 col-md-10 col-lg-10 mx-auto">
+                    <div id="frequentquestions" className="col-12 col-md-10 col-lg-10 mx-auto">
                         <FrequentQuestions/>
                     </div>
                 </div>
-
             </section>
 
             <ScrollTop/>
