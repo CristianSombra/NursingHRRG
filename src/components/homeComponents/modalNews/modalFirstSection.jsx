@@ -24,11 +24,29 @@ const ModalFirstSection = () => {
                             style={{textAlign: 'justify'}}
                                 >
                                 <p>
-                                    Nos complace haber realizado <strong>la primera exposición del año</strong>, donde destacados profesionales y licenciados de servicios como Enfermería de Partos, Terapia Intensiva Pediátrica, Terapia Intensiva de Adultos, Guardia Central de Emergencias, Neonatología, Infectología, Consultorios Externos, Hemodiálisis, Oncología, entre otros, compartieron valiosas experiencias y actualizaciones en enfermería. 
+                                    Nos complace haber realizado <strong>la primera exposición del año</strong>, donde destacados profesionales compartieron valiosas experiencias y actualizaciones en enfermería. 
                                 </p>
                                 <p>
                                     Fue un evento enriquecedor que promovió el intercambio de conocimientos y el <strong>fortalecimiento de nuestra comunidad profesional</strong>.
                                 </p>
+                                <p className="fw-bold">Servicios que participaron:</p>
+                                <div className="row d-flex justify-content-center">
+                                    <div className="col-10 col-md-7">
+                                    <ul>
+                                    <li>Enfermería de Partos</li>
+                                    <li>Terapia Intensiva Pediátrica</li>
+                                    <li>Terapia Intensiva de Adultos</li>
+                                    <li>Guardia Central de Emergencias</li>
+                                    <li>Neonatología</li>
+                                    <li>Infectología</li>
+                                    <li>Consultorios Externos</li>
+                                    <li>Hemodiálisis</li>
+                                    <li>Oncología</li>
+                                    <li>CAPS</li>
+                                </ul>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                         <div className="modal-footer">
