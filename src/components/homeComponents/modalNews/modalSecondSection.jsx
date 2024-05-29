@@ -14,7 +14,7 @@ const ModalSecondSectionA = () => {
                             </h4>
                         </div>
                         <div className="modal-body">
-                            <Image cloudName="nursingStaff" publicId={imagesHome.card2} className="img-fluid" alt=""/>
+                            <Image cloudName="nursingStaff" publicId={imagesHome.card2} className="img-fluid img-custom-home-modal" alt=""/>
                             <p 
                             className="mt-4" 
                             style={{textAlign: 'justify'}}

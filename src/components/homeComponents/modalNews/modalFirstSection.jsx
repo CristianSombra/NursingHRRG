@@ -14,13 +14,22 @@ const ModalFirstSection = () => {
                             </h4>
                         </div>
                         <div className="modal-body">
-                            <Image cloudName="nursingStaff" publicId={imagesHome.card1} className="img-fluid" alt=""/>
-                            <p 
-                            className="mt-4" 
+                            <Image 
+                                cloudName="nursingStaff" 
+                                publicId={imagesHome.card1} 
+                                className="img-fluid img-custom-home-modal" 
+                                alt=""
+                            />
+                            <div className="mt-4" 
                             style={{textAlign: 'justify'}}
-                            >
-                                Nos complace haber realizado <strong>la primera exposición del año</strong>, donde destacados profesionales y licenciados de servicios como Enfermería de Partos, Terapia Intensiva Pediátrica, Terapia Intensiva de Adultos, Guardia Central de Emergencias, Neonatología, Infectología, Consultorios Externos, Hemodiálisis, Oncología, entre otros, compartieron valiosas experiencias y actualizaciones en enfermería. Fue un evento enriquecedor que promovió el intercambio de conocimientos y el <strong>fortalecimiento de nuestra comunidad profesional</strong>.
-                            </p>
+                                >
+                                <p>
+                                    Nos complace haber realizado <strong>la primera exposición del año</strong>, donde destacados profesionales y licenciados de servicios como Enfermería de Partos, Terapia Intensiva Pediátrica, Terapia Intensiva de Adultos, Guardia Central de Emergencias, Neonatología, Infectología, Consultorios Externos, Hemodiálisis, Oncología, entre otros, compartieron valiosas experiencias y actualizaciones en enfermería. 
+                                </p>
+                                <p>
+                                    Fue un evento enriquecedor que promovió el intercambio de conocimientos y el <strong>fortalecimiento de nuestra comunidad profesional</strong>.
+                                </p>
+                            </div>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
