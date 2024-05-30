@@ -49,8 +49,14 @@ export const ModalQuestionLAR = () => {
                         <h5 className="modal-tittle fw-bold">Licencia Anual Reglamentaria</h5>
                     </div>
                         <div className="modal-body text-center">
-                            <h5 className="my-5">
+                            <h5 className="my-3">
                                 En caso de excedido los 15 días el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
+                            </h5>
+                            <h5 className="my-3">
+                                ✅ Podrá ser utilizada durante todo el año.
+                            </h5>
+                            <h5 className="my-3">
+                                🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable de la Licencia Especial Invierno <strong>(LEI)</strong>.
                             </h5>
                         </div>
                         <div className="modal-footer">
