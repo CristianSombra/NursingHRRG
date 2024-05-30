@@ -124,10 +124,10 @@ export const Modal14F = () => {
                     </div>
                         <div className="modal-body text-center">
                             <h5 className="my-3">
-                                Deben solicitarse con <strong>48 hs de anticipación</strong> al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
+                                ✅ Deben solicitarse con <strong>48 hs de anticipación</strong> al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
                             </h5>
                             <h5 className="my-3">
-                                Pueden ser dadas de baja por <strong>razones de servicio.</strong>
+                                👉 Pueden ser dadas de baja por <strong>razones de servicio.</strong>
                             </h5>
                         </div>
                         <div className="modal-footer">
@@ -158,10 +158,10 @@ export const Modal14H = () => {
                     </div>
                         <div className="modal-body text-center">
                             <h5 className="my-3">
-                                Deben solicitarse con <strong>48 hs de anticipación</strong> al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
+                                ✅ Deben solicitarse con <strong>48 hs de anticipación</strong> al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
                             </h5>
                             <h5 className="my-3">
-                                Pueden ser dadas de baja por <strong>razones de servicio.</strong>
+                                👉 Pueden ser dadas de baja por <strong>razones de servicio.</strong>
                             </h5>
                         </div>
                         <div className="modal-footer">

@@ -19,7 +19,12 @@ const ModalSecondSectionA = () => {
                                 className="mt-4" 
                                 style={{textAlign: 'justify'}}
                             >
-                                <p>Expresamos nuestro sincero <strong>agradecimiento</strong> al Colegio Público de Profesionales de Enfermería, a la Asociación Trabajadores de la Sanidad Argentina filial Tierra del Fuego <strong>(ATSA)</strong>, y a la Asociación de Trabajadores del Estado Seccional Rio Grande <strong>(ATE)</strong> por la <strong>colaboración</strong> para brindar un servicio excepcional.</p>
+                                <p>Expresamos nuestro sincero <strong>agradecimiento</strong> a las siguientes instituciones:</p>
+                                <ul>
+                                    <li>Colegio Público de Profesionales de Enfermería.</li>
+                                    <li>Asociación Trabajadores de la Sanidad Argentina filial Tierra del Fuego <strong>(ATSA)</strong>.</li>
+                                    <li>Asociación de Trabajadores del Estado Seccional Rio Grande <strong>(ATE)</strong>.</li>
+                                </ul>
                                 <p>Su apoyo va más allá de lo material, inspirándonos a fortalecer nuestra labor en beneficio de la comunidad de enfermería.</p>
                             </div>
                         </div>
