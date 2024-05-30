@@ -184,7 +184,7 @@ const Contact = () => {
                                 </div>
                                 </motion.div>
                                 <motion.div 
-                                    className="col text-end"
+                                    className="col text-center text-md-end"
                                     initial={{y: 50, opacity: 0, filter: 'blur(5px)'}}
                                     animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                                     transition={{duration: 1.8, delay: 0.8}}
@@ -204,12 +204,14 @@ const Contact = () => {
                     <div className="col-12 mt-5 text-center">
                         <div className="row d-flex justify-content-center align-items-center">
                             <h4 className="fw-bold">WhatsApp Corporativo</h4>
-                            <div className="col-12 col-md-10 col-lg-5">
-                                <p 
-                                className="my-5"
-                                    >
-                                    Esta vía de comunicación está <strong>destinada exclusivamente</strong> a los <strong>enfermeros activos</strong> del <strong>Hospital Regional Río Grande</strong>, por lo que no se responderan mensajes ajenos al plantel activo de la institución. Si eres parte de nuestro equipo y deseas <strong>contactar</strong> al <strong>Departamento de Enfermería</strong> por un tema específico laboral, por favor haz click en contacto. Tu consulta será atendida a la brevedad posible.
+                            <div className="col-12 col-md-8 col-lg-5">
+                                <p className="my-3">
+                                    Esta vía de comunicación está <strong>destinada exclusivamente</strong> a los <strong>enfermeros activos</strong> del <strong>Hospital Regional Río Grande</strong>, por lo que no se responderan mensajes ajenos al plantel activo de la institución.
                                 </p>
+                                <p className="my-3">
+                                    Si eres parte de nuestro equipo y deseas <strong>contactar</strong> al <strong>Departamento de Enfermería</strong> por un tema específico laboral, por favor haz click en contacto. Tu consulta será atendida a la brevedad posible.
+                                </p>
+
                                 <div className="d-none d-lg-block">
                                     <a 
                                         href="https://wa.me/5492964613783" 

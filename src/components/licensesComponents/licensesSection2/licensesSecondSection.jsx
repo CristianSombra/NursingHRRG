@@ -13,7 +13,7 @@ const LicensesSecondSection = () => {
             <div className="row mt-5 justify-content-center ">
                 <div className="text-center col-12 col-md-10">
                     <h4 className="fw-bold my-3">Otras licencias descargables</h4>
-                    <p className="my-3">En la siguiente tabla podrás acceder a otras licencias para descargar en formato PDF, para completar y enviar por <strong>GEN</strong>.</p>
+                    <p className="my-3">En la siguiente tabla podrás acceder a otras licencias para descargar en formato PDF, para completar y enviar por <strong>GEN</strong> o <strong>ZIMBRA</strong> según corresponda.</p>
                 </div>
                 <div className="col-12 col-md-10 col-lg-8 my-3">
                     <div className="table-responsive">
