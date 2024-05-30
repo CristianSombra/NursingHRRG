@@ -17,7 +17,7 @@ const Landing = () => {
                             initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
                             animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                             transition={{duration: 1.2, delay: 0.4}}
-                            className="col-12 "
+                            className="col-12 fst-italic"
                         >
                             "Si salvas una vida eres un héroe, pero si salvas 100 eres un <strong>enfermero</strong>".
                         </motion.h4>
@@ -51,7 +51,7 @@ const Landing = () => {
                                     initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
                                     animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                                     transition={{duration: 1.2, delay: 0.4}}
-                                    className="col-11 my-2 d-block d-md-none"
+                                    className="col-11 my-2 d-block d-md-none fst-italic"
                                 >
                                     "Si salvas una vida eres un héroe, pero si salvas 100 eres un <strong>enfermero</strong>".
                         </motion.p>

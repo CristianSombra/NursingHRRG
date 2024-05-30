@@ -53,13 +53,13 @@ const LicensesSecondSection = () => {
                                     </th>
                                 </tr>
                                 <tr>
-                                    <th>Otro tipo de formulario a solicitar</th>
+                                    <th>LEI decreto 2024</th>
                                     <th className="text-center">
                                         <motion.div 
                                             initial={{y: 0}}
                                             whileHover={{y: -10}}
                                             transition={{duration: 0.2, delay: 0.1}}>
-                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                <a href={pdfPath + "LEI-decreto24.pdf"} target="_blank" rel="noreferrer">
                                                     <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
                                                 </a>
                                         </motion.div>

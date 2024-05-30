@@ -49,7 +49,7 @@ const BannerHome = () => {
                                 initial={{y: 50, opacity: 0, filter: 'blur(6px)'}}
                                 animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                                 transition={{duration: 1.2, delay: 0.4}}
-                                className="text-white">
+                                >
                                     Departamento de Enfermería
                                 </motion.h2>
                             <motion.h4 
@@ -86,7 +86,7 @@ const BannerHome = () => {
                 </div>
             </div>
             <div className="row my-3 d-flex justify-content-center text-center">
-                <p>
+                <p className="fst-italic">
                     <motion.span variants={sentenceVariants} initial="hidden" animate="visible">
                         {letters.map((letter, index) => (
                             <motion.span key={index} variants={letterVariants}>{letter}</motion.span>

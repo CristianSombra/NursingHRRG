@@ -80,8 +80,14 @@ export const ModalQuestionLEI = () => {
                         <h5 className="modal-tittle fw-bold">Licencia Especial Invierno</h5>
                     </div>
                         <div className="modal-body text-center">
-                            <h5 className="my-5">
+                            <h5 className="my-3">
                                 En caso de excedido la semana el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
+                            </h5>
+                            <h5 className="my-3">
+                                ✅ Podrá ser utilizada cualquier día de la semana, como menciona en en <strong>Artículo 6° del decreto 2024</strong>.
+                            </h5>
+                            <h5 className="my-3">
+                                🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable a la LEI por razones particulares <strong>(art. 14F y 14H)</strong>, ni Licencia anual reglamentaria <strong>(LAR)</strong>.
                             </h5>
                         </div>
                         <div className="modal-footer">
