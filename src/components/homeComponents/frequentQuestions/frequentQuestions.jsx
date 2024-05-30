@@ -44,7 +44,6 @@ const FrequentQuestions = () => {
                                 <Link to="/licenses" className="btn-custom-secondary">
                                     Ir a Licencias
                                 </Link>
-
                             </div>
                         </div>
                     </div>
@@ -57,10 +56,17 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseThree" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                        Tanto las licencias 14F y 14H deben solicitarse con <strong>48 hs de anticipación</strong>, y se debe solicitar al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
-                        <a href="/licenses" className="p-2">
-                            Ir a Licencias
-                        </a>
+                            <p className="my-3">
+                                ✅ Deben solicitarse con <strong>48 hs de anticipación</strong> al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
+                            </p>
+                            <p className="my-3">
+                                👉 Pueden ser dadas de baja por <strong>razones de servicio.</strong>
+                            </p>
+                            <div className="text-center my-4">
+                                <Link to="/licenses" className="btn-custom-secondary">
+                                    Ir a Licencias
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
