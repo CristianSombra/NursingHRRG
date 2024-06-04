@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Image } from "cloudinary-react";
-import { inMaintenance }  from "@/components/cloudinary/updates/imagesUpdates";
+import imagesUpdates  from "@/components/cloudinary/updates/imagesUpdates";
+import { ModalDdiUpdate } from "../modalUpdates/modalUpdates";
 import { ModalInformationA } from "@/components/modalInformation/modalInformation";
 
 const UpdatesSections = () => {
@@ -19,31 +20,31 @@ const UpdatesSections = () => {
                     <div className="row d-flex justify-content-around mx-auto">
                         <div className="col-12 col-md-8 col-lg-5 my-3">
                             <motion.div
-                                className="card card-custom">
-                                    <Image cloudName="nursingStaff" publicId={inMaintenance} className="card-img-top img-fluid" alt="..."/>
+                                className="card card-custom text-center text-md-start">
+                                    <Image cloudName="nursingStaff" publicId={imagesUpdates.ddi} className="card-img-top img-fluid" alt="..."/>
                                     <div className="card-body">
-                                        <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
-                                        <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
+                                        <h5 className="card-title fw-bold">Marco de programa Garrahan Federal</h5>
+                                        <p className="card-text mb-3">Ciclos de encuentros online con diferentes temas de abordaje.</p>
                                         <div className="text-center text-md-end my-2">
                                             {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
                                             <button 
                                                 className="btn-custom"
                                                 data-bs-toggle="modal"
-                                                data-bs-target="#modal-4"
+                                                data-bs-target="#modal-ddi"
                                                 >
                                                 Ver más
                                             </button>
-                                            <ModalInformationA/>
+                                            <ModalDdiUpdate/>
                                         </div>
                                     </div>
                             </motion.div>
                         </div>
                         <div className="col-12 col-md-8 col-lg-5 my-3">
-                            <div className="card card-custom">
-                                <Image cloudName="nursingStaff" publicId={inMaintenance} className="card-img-top img-fluid" alt="..."/>
+                            <div className="card card-custom text-center text-md-start">
+                                <Image cloudName="nursingStaff" publicId={imagesUpdates.inMaintenance} className="card-img-top img-fluid" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
-                                    <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
+                                    <h5 className="card-title fw-bold">Titulo de la próxima capacitación</h5>
+                                    <p className="card-text mb-3">Nos encontramos trabajando junto con la <strong>Oficina de docencia e investigación</strong>.</p>
                                     <div className="text-center text-md-end my-2">
                                         {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
                                         <button 
@@ -72,11 +73,11 @@ const UpdatesSections = () => {
                 </div>
                     <div className="row d-flex justify-content-around mx-auto">
                         <div className="col-12 col-md-8 col-lg-5 my-3">
-                            <div className="card card-custom">
-                                <Image cloudName="nursingStaff" publicId={inMaintenance} className="card-img-top img-fluid"  alt="..."/>
+                            <div className="card card-custom text-center text-md-start">
+                                <Image cloudName="nursingStaff" publicId={imagesUpdates.inMaintenance} className="card-img-top img-fluid"  alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
-                                    <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
+                                    <h5 className="card-title fw-bold">Titulo de la próxima capacitación</h5>
+                                    <p className="card-text mb-3">Nos encontramos trabajando junto con la <strong>Oficina de docencia e investigación</strong>.</p>
                                     <div className="text-center text-md-end my-2">
                                         {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
                                         <button 
@@ -92,11 +93,11 @@ const UpdatesSections = () => {
                             </div>
                         </div>
                         <div className="col-12 col-md-8 col-lg-5 my-3">
-                            <div className="card card-custom">
-                                <Image cloudName="nursingStaff" publicId={inMaintenance} className="card-img-top img-fluid"  alt="..."/>
+                            <div className="card card-custom text-center text-md-start">
+                                <Image cloudName="nursingStaff" publicId={imagesUpdates.inMaintenance} className="card-img-top img-fluid"  alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title fw-bold">Titulo de la capacitación</h5>
-                                    <p className="card-text mb-3">Descripción de la capacitación a cargar.</p>
+                                    <h5 className="card-title fw-bold">Titulo de la próxima capacitación</h5>
+                                    <p className="card-text mb-3">Nos encontramos trabajando junto con la <strong>Oficina de docencia e investigación</strong>.</p>
                                     <div className="text-center text-md-end my-2">
                                         {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
                                         <button 

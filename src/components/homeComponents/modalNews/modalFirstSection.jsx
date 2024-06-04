@@ -32,21 +32,20 @@ const ModalFirstSection = () => {
                                 <p className="fw-bold">Servicios que participaron:</p>
                                 <div className="row d-flex justify-content-center">
                                     <div className="col-10 col-md-7">
-                                    <ul>
-                                    <li>Enfermería de Partos</li>
-                                    <li>Terapia Intensiva Pediátrica</li>
-                                    <li>Terapia Intensiva de Adultos</li>
-                                    <li>Guardia Central de Emergencias</li>
-                                    <li>Neonatología</li>
-                                    <li>Infectología</li>
-                                    <li>Consultorios Externos</li>
-                                    <li>Hemodiálisis</li>
-                                    <li>Oncología</li>
-                                    <li>CAPS</li>
-                                </ul>
+                                        <ul>
+                                            <li>Enfermería de Partos</li>
+                                            <li>Terapia Intensiva Pediátrica</li>
+                                            <li>Terapia Intensiva de Adultos</li>
+                                            <li>Guardia Central de Emergencias</li>
+                                            <li>Neonatología</li>
+                                            <li>Infectología</li>
+                                            <li>Consultorios Externos</li>
+                                            <li>Hemodiálisis</li>
+                                            <li>Oncología</li>
+                                            <li>CAPS</li>
+                                        </ul>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                         <div className="modal-footer">

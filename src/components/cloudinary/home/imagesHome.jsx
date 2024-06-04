@@ -4,6 +4,7 @@ const bannerNews = "https://res.cloudinary.com/nursingstaff/image/upload/v171594
 const card1 = "https://res.cloudinary.com/nursingstaff/image/upload/v1715567018/nursingHRRG/Views/Home/News/image_50436865_d1i0z1.jpg"
 const card2 = "https://res.cloudinary.com/nursingstaff/image/upload/v1716481112/nursingHRRG/Views/Home/News/2_rv71la.jpg";
 const card3 = "https://res.cloudinary.com/nursingstaff/image/upload/v1716481110/nursingHRRG/Views/Home/News/1_wgyiie.jpg";
+const bannerDDI = "https://res.cloudinary.com/nursingstaff/image/upload/v1717458963/nursingHRRG/Views/Home/ddi_pzdyhj_jtqoej.jpg";
 
 export default {
     bannerHome, 
@@ -11,5 +12,6 @@ export default {
     bannerNews, 
     card1,
     card2,
-    card3
+    card3,
+    bannerDDI
 };
