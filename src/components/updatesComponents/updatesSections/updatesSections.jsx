@@ -23,7 +23,7 @@ const UpdatesSections = () => {
                                 className="card card-custom text-center text-md-start">
                                     <Image cloudName="nursingStaff" publicId={imagesUpdates.ddi} className="card-img-top img-fluid" alt="..."/>
                                     <div className="card-body">
-                                        <h5 className="card-title fw-bold">Marco de programa Garrahan Federal</h5>
+                                        <h5 className="card-title fw-bold">Marco de programa Garrahan</h5>
                                         <p className="card-text mb-3">Ciclos de encuentros online con diferentes temas de abordaje.</p>
                                         <div className="text-center text-md-end my-2">
                                             {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
