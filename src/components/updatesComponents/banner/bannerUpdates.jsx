@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Image } from "cloudinary-react";
-import { bannerUpdates, bannerUpdatesMobile } from "@/components/cloudinary/updates/imagesUpdates";
+import imagesUpdates from "@/components/cloudinary/updates/imagesUpdates";
 
 
 const sentence = "El aprendizaje es experiencia. Todo lo demás es información.";
@@ -42,7 +42,7 @@ const BannerUpdates = () => {
                         transition={{duration: 1.2, delay: 0.4}}
                         className="blue-rectangle-updates"></motion.div>
                     <div className="image-container-updates">
-                        <Image cloudName="nursingStaff" publicId={bannerUpdates} className="img-fluid col-12" alt="" />
+                        <Image cloudName="nursingStaff" publicId={imagesUpdates.bannerUpdates} className="img-fluid col-12" alt="" />
                         <div className="blue-rectangle-updates-over">
                             <div className="text-container">
                                 <motion.p
@@ -82,7 +82,7 @@ const BannerUpdatesMobile = () => {
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.6, delay: 0.6}}
                         className="image-container">
-                            <Image cloudName="nurginStaff" publicId={bannerUpdatesMobile} className="img-fluid" alt="" />
+                            <Image cloudName="nurginStaff" publicId={imagesUpdates.bannerUpdatesMobile} className="img-fluid" alt="" />
                             <div className="image-overlay"></div>
                     </motion.div>
                 </div>

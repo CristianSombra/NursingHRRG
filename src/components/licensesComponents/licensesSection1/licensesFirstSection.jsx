@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "cloudinary-react";
 import { motion } from "framer-motion";
-import { ModalQuestionLAR, ModalQuestionLEI, Modal14F, Modal14H } from "../../modalInformation/modalInformation";
+import { ModalQuestionLAR, ModalQuestionLEI, Modal14F, Modal14H } from "../modalLicenses/ModalLicenses";
 import imagesLicenses from "@/components/cloudinary/licenses/imagesLicenses";
 
 const LicensesFirstSection = () => {

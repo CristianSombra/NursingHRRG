@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "cloudinary-react";
-import imagesHome from "../../cloudinary/home/imagesHome";
+import imagesHome from "@/components/cloudinary/home/imagesHome";
 
 const CarouselHome = () => {
     return(
@@ -12,7 +12,7 @@ const CarouselHome = () => {
         </div>
         <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <Image cloudName="nursingStaff" publicId={imagesHome.bannerNews} className="d-block w-100" alt="" />
+                    <Image cloudName="nursingStaff" publicId={imagesHome.bannerDDI} className="d-block w-100" alt="" />
                 </div>
                 <div className="carousel-item">
                     <Image cloudName="nursingStaff" publicId={imagesHome.bannerNews} className="d-block w-100" alt="" />

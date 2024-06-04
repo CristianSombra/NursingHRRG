@@ -10,6 +10,10 @@ import '@/components/homeComponents/home.css';
 
 const Home = () => {
 
+    const handleButtonClick = () => {
+        window.open('https://forms.gle/fRtxsq4WV1XmbDmr9', '_blank');
+    };
+
     return(
         <PageTransition>
             <div className="container-fluid container-home">
@@ -29,7 +33,7 @@ const Home = () => {
                         transition={{duration:1.2, delay:0.6}}
                         >
                             <h5 className="fw-bold">Próximas capacitaciones</h5>
-                            <h5 className="text-muted">Mayo 2024</h5>
+                            <h5 className="text-muted">Junio 2024</h5>
                     </motion.div>
                     
                     <div className="col-12 col-md-10 col-lg-8 my-3 mx-auto">
@@ -40,8 +44,8 @@ const Home = () => {
                         {/* <button href="" className="btn-custom">Inscribirme</button> */}
                         <button 
                             className="btn-custom"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal-4"
+
+                            onClick={handleButtonClick}
                             >
                             Inscribirme
                         </button>
