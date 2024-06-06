@@ -13,7 +13,18 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                            <p className="my-3">
+                                👉 Llamar inmediatamente al <strong>0800333133</strong>.
+                            </p>
+                            <p className="my-3">
+                                👉 Dirigirse a la guardia central e informar lo sucedido al médico para que realice la <strong>planilla</strong> correspondiente.
+                            </p>
+                            <p className="my-3">
+                                👉 Notificar inmediatamente al supervisor para realizar <strong>el informe</strong>, detallando exactamente cómo fue el incidente y datos del agente.
+                            </p>
+                            <p className="my-3">
+                                ✅ Presentar todo en <strong>RRHH</strong>.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -25,26 +36,30 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <p>La <strong>Licencia Anual Reglamentaria</strong> (LAR) deben solicitarse con 15 días de anticipación independientemente de la <strong>fracción</strong> que se requiera. En caso de excedido los 15 días el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.</p>
+                            <p className="mt-3">La <strong>Licencia Anual Reglamentaria</strong> (LAR) deben solicitarse con 15 días de anticipación independientemente de la <strong>fracción</strong> que se requiera. En caso de excedido los 15 días el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
+                            </p>
                             <p className="my-3">
                                 ✅ Podrá ser utilizada durante todo el año.
                             </p>
-                            <p className="my-3">
+                            <p className="my-3 mb-4">
                                 🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable de la Licencia Especial Invierno <strong>(LEI)</strong>.
                             </p>
-                            
-                            <p>Las <strong>Licencia Especial Invierno</strong> (LEI) deben solicitarse con una semana de anticipación. En caso de excedido la semana el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.</p>
+                            <hr />
+                            <p className="mt-3">Las <strong>Licencia Especial Invierno</strong> (LEI) deben solicitarse con una semana de anticipación. En caso de excedido la semana el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.</p>
                             <p className="my-3">
                                 ✅ Podrá ser utilizada cualquier día de la semana, como menciona en en <strong>Artículo 6° del decreto 2024</strong>.
                             </p>
                             <p className="mt-3 mb-4">
                                 🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable a la LEI por razones particulares <strong>(art. 14F y 14H)</strong>, ni Licencia anual reglamentaria <strong>(LAR)</strong>.
                             </p>
-                            <div className="text-center my-4">
+                            <div className="text-center my-5">
                                 <Link to="/licenses" className="btn-custom-secondary">
                                     Ir a Licencias
                                 </Link>
                             </div>
+                            <p className="my-3">
+                                👉 Ambas licencias deben ser enviadas por <strong>GEN EXPEDIENTE</strong>.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -57,10 +72,13 @@ const FrequentQuestions = () => {
                     <div id="collapseThree" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             <p className="my-3">
-                                ✅ Deben solicitarse con <strong>48 hs de anticipación</strong> al Jefe Inmediato (Jefe del Servicio) y esperar su confirmación para ser autorizadas.
+                                ✅ Deben solicitarse con <strong>48 hs de anticipación</strong> al <strong>Jefe del Servicio</strong> y esperar su confirmación para ser autorizadas.
                             </p>
                             <p className="my-3">
                                 👉 Pueden ser dadas de baja por <strong>razones de servicio.</strong>
+                            </p>
+                            <p className="my-3">
+                                ✅ En la sección de <strong>Licencias</strong> puedes descargar el <strong>PDF Editable</strong> y enviarlo a través de ZIMBRA al <strong>Jefe de servicio</strong>.
                             </p>
                             <div className="text-center my-4">
                                 <Link to="/licenses" className="btn-custom-secondary">
@@ -78,7 +96,21 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseFour" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                            <p className="my-3">
+                                Debe solicitarse al <strong>jefe de servicio</strong> o en caso contrario al Supervisor de turno, para su autorización. Una vez autorizado completar el formulario y presentar.
+                            </p>
+                            <p className="my-3">
+                                👉 El agente debe devolverlo <strong>dentro de las 48 hs.</strong>
+                            </p>
+                            <p className="my-3">
+                                ✅ Si es por un turno medico, presenta la <strong>constancia médica</strong> del turno y <strong>no</strong> se devuelve la hora.
+                            </p>
+                            
+                            <div className="text-center my-4">
+                                <Link to="/licenses" className="btn-custom-secondary">
+                                    Ir a Licencias
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -89,8 +121,18 @@ const FrequentQuestions = () => {
                         </button>
                     </h2>
                     <div id="collapseFive" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
-                        <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                        <div className="accordion-body">                        
+                            <p className="mt-3 mb-4">
+                                ✅ La llegada tarde <strong>se contempla</strong> hasta <strong>10 minutos posterior a su inicio de jornada</strong>, y se debe notificar al <strong>Departamento de Enfermería</strong>
+                            </p>
+                            <p className="mt-3 mb-4">
+                                🚫 Caso contraro quedará como llegada tarde.
+                            </p>
+                            <div className="text-center my-4">
+                                <Link to="/contact" className="btn-custom-secondary">
+                                    Ir a Contacto
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -102,7 +144,12 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseSix" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                            <p className="mt-3 mb-4">
+                                Para ingresar a tu GEN EXPEDIENTE debes utilizar el <strong>usuario y contraseña</strong> que te fue asignado para ingresar a la plataforma.
+                            </p>
+                            <p className="my-3">
+                                👉 La página para ingresar es <strong><a href="https://genexpediente.tdf.gob.ar/vub/" target="_blank">https://genexpediente.tdf.gob.ar/vub/</a></strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -114,7 +161,12 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseSeven" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                            <p className="mt-3 mb-4">
+                                En el caso que no puedas ingresar a tu GEN EXPEDIENTE debes solicitar un <strong>usuario y contraseña</strong> para ingresar a la plataforma, solicitando un <strong>ticket de asistencia</strong>.
+                            </p>
+                            <p className="my-3">
+                                👉 La página para ingresar es <strong><a href="https://ayuda.aif.gob.ar/" target="_blank">https://ayuda.aif.gob.ar/</a></strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -126,7 +178,12 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseEight" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingEight" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                            <p className="mt-3 mb-4">
+                                Para ingresar a tu correo ZIMBRA debes utilizar tu <strong>usuario y contraseña</strong> con el que ingresas para descargar el <strong>recibo de sueldo</strong>, para ingresar a la plataforma.
+                            </p>
+                            <p className="my-3">
+                                👉 La página para ingresar es <strong><a href="https://zimbra.tdf.gob.ar/" target="_blank">https://zimbra.tdf.gob.ar/</a></strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +195,12 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseNine" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingNine" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            Nos disculpamos, se está <strong>trabajando en la respuesta</strong> con las oficinas correspondientes para brindar la información correcta, a la brevedad verás reflejada la respuesta a la consigna leída. Gracias por tu comprensión.
+                            <p className="mt-3 mb-4">
+                                En el caso que no puedas ingresar a tu correo ZIMBRA debes solicitar un <strong>usuario y contraseña</strong> para ingresar a la plataforma, solicitando un <strong>ticket de asistencia</strong>.
+                            </p>
+                            <p className="my-3">
+                                👉 La página para ingresar es <strong><a href="https://ayuda.aif.gob.ar/" target="_blank">https://ayuda.aif.gob.ar/</a></strong>
+                            </p>
                         </div>
                     </div>
                 </div>
