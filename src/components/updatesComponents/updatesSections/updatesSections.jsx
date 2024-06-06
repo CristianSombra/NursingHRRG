@@ -23,38 +23,38 @@ const UpdatesSections = () => {
                                 className="card card-custom text-center text-md-start">
                                     <Image cloudName="nursingStaff" publicId={imagesUpdates.ddi} className="card-img-top img-fluid" alt="..."/>
                                     <div className="card-body">
-                                        <h5 className="card-title fw-bold">Marco de programa Garrahan</h5>
-                                        <p className="card-text mb-3">Ciclos de encuentros online con diferentes temas de abordaje.</p>
+                                        <h5 className="card-title fw-bold">Rehabilitación Psicomotora</h5>
+                                        <p className="card-text mb-3">Taller virtual interactivo en el abordaje de bebés prematuros.</p>
                                         <div className="text-center text-md-end my-2">
                                             {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
                                             <button 
                                                 className="btn-custom"
                                                 data-bs-toggle="modal"
-                                                data-bs-target="#modal-ddi"
+                                                data-bs-target="#modal-ddi2"
                                                 >
                                                 Ver más
                                             </button>
-                                            <ModalDdiUpdate/>
+                                            <ModalDdiUpdate2/>
                                         </div>
                                     </div>
                             </motion.div>
                         </div>
                         <div className="col-12 col-md-8 col-lg-5 my-3">
                             <div className="card card-custom text-center text-md-start">
-                                <Image cloudName="nursingStaff" publicId={imagesUpdates.ddi2} className="card-img-top img-fluid" alt="..."/>
+                                <Image cloudName="nursingStaff" publicId={imagesUpdates.inMaintenance} className="card-img-top img-fluid" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title fw-bold">Rehabilitación Psicomotora</h5>
-                                    <p className="card-text mb-3">Taller virtual interactivo en el abordaje de bebés prematuros.</p>
+                                    <h5 className="card-title fw-bold">Titulo de la próxima capacitación</h5>
+                                    <p className="card-text mb-3">Nos encontramos trabajando junto con la <strong>Oficina de docencia e investigación</strong>.</p>
                                     <div className="text-center text-md-end my-2">
                                         {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
                                         <button 
                                             className="btn-custom"
                                             data-bs-toggle="modal"
-                                            data-bs-target="#modal-ddi2"
+                                            data-bs-target="#modal-4"
                                             >
                                             Ver más
                                         </button>
-                                        <ModalDdiUpdate2/>
+                                        <ModalInformationA/>
                                     </div>
                                 </div>
                             </div>
