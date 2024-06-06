@@ -11,7 +11,7 @@ import '@/components/homeComponents/home.css';
 const Home = () => {
 
     const handleButtonClick = () => {
-        window.open('https://forms.gle/EHrgZpx45cYZ8gSAA', '_blank');
+        window.open('https://forms.gle/kkdPo8qof7G9V7eaA', '_blank');
     };
 
     return(
