@@ -56,7 +56,7 @@ const LicensesFirstSection = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia especial invierno</h4>
-                    <p className="mb-4">Se puede tomar desde junio a noviembre de cada año. Se debe solicitar al jefe del servicio con <strong>un semana de anticiáción</strong>.</p>
+                    <p className="mb-4">Se puede tomar desde junio a noviembre de cada año. Se debe solicitar al jefe del servicio con <strong>un semana de anticipación</strong>.</p>
                     <div className="text-center text-md-center mt-3 mb-5">
                         <a href={pdfPath + "LEI.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
                     </div>
