@@ -66,7 +66,7 @@ export const ModalDdiUpdate2 = () => {
                         <h5 className="modal-tittle">División docencia e investigación</h5>
                     </div>
                         <div className="modal-body text-center">
-                            <Image cloudName="nursingStaff" publicId={imagesUpdates.ddi2} className="img-fluid my-3" style={{ borderRadius: '0' }} />
+                            <Image cloudName="nursingStaff" publicId={imagesUpdates.ddi} className="img-fluid my-3" style={{ borderRadius: '0' }} />
                             <h4>Taller Virtual Interactivo</h4>
                             <h6 className="text-muted my-3">Actividade <strong>no arancelada</strong>.</h6>
                             <h6 className="text-muted my-3"><strong>Modalidad:</strong> A distancia</h6>

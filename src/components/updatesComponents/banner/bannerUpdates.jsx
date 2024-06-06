@@ -105,6 +105,14 @@ const BannerUpdatesMobile = () => {
                         - Albert Einstein
                     </motion.p>
                 </div>
+                <motion.p 
+                        initial={{opacity:0, filter: 'blur(4px)'}}
+                        animate={{opacity:1, filter: 'blur(0)'}}
+                        transition={{duration: 1.2, delay: 0.6}}
+                        className="mt-3"
+                        >
+                            Para contactarse con la <strong>Oficina de División de Docencia e Investigación</strong> realizarlo a través de <strong style={{ fontStyle: 'italic' }} >ddocenciamsrg@tierradelfuego.gob.ar</strong>.
+                </motion.p>
             </div>
         </div>
     )
