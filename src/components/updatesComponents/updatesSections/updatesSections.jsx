@@ -24,7 +24,7 @@ const UpdatesSections = () => {
                                     <Image cloudName="nursingStaff" publicId={imagesUpdates.ddi} className="card-img-top img-fluid" alt="..."/>
                                     <div className="card-body">
                                         <h5 className="card-title fw-bold">Rehabilitación Psicomotora</h5>
-                                        <p className="card-text mb-3">Taller virtual interactivo en el abordaje de bebés prematuros.</p>
+                                        <p className="card-text mb-3">Taller virtual interactivo en el abordaje de la alimentación de bebés prematuros. </p>
                                         <div className="text-center text-md-end my-2">
                                             {/* <button type="button" href="#" className="btn-custom">Ver más</button> */}
                                             <button 
