@@ -1,19 +1,14 @@
-<div align="center" >
-
-<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114072/nursingHRRG/assets/LogoDepartamento_fondo_blanco_x11bhh.png" alt="Logo del Departamento de Enfermería" width="50%">
-</div>
-<div>
-<p align="center">Sitio Oficial del Departamento de Enfermería, Hospital Regional Rio Grande.</p>
-<p align="center">Ciudad de Rio Grande, Provincia de Tierra del Fuego.</p>
-</div>
-</div>
-
 <p align="center">
-  <a href="https://enfermeriahrrg.com.ar/" target="_blank" >Ingresar</a>
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114072/nursingHRRG/assets/LogoDepartamento_fondo_blanco_x11bhh.png" alt="Logo del Departamento de Enfermería" width="50%">
 </p>
 
-<div>
+<p align="center">Sitio Oficial del Departamento de Enfermería, Hospital Regional Rio Grande.</p>
+<p align="center">Ciudad de Rio Grande, Provincia de Tierra del Fuego.</p>
+
+<p align="center">
+  <a href="https://enfermeriahrrg.com.ar/" target="_blank">Ingresar</a>
+</p>
+
 
 </div>
 
