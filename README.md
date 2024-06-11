@@ -34,7 +34,7 @@ Oficina de División de Docencia e Investigación: Proporcionará recursos educa
 
 ### Tecnologías que Utilizo en éste proyecto 📚
 
-<p align="center">
+<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
     <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" alt="Figma" width="6%">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" alt="HTML5" width="7%">
@@ -48,11 +48,7 @@ Oficina de División de Docencia e Investigación: Proporcionará recursos educa
     <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114929/Portfolio/soft%20skills/js_dhfsyl.svg" alt="JavaScript" width="8%">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114926/Portfolio/soft%20skills/react_fafq9u.svg" alt="React" width="8%">
-</p>
-
-
-
-
+</div>
 
 <hr>
 
