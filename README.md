@@ -26,9 +26,10 @@ Comunidad de Enfermería de la Ciudad: Extendemos una invitación abierta a todo
 
 Contenido desarrollado en colaboración con las siguientes oficinas:
 
-Oficina de Recursos Humanos del Hospital Regional Río Grande: Contribuyó con información relevante sobre políticas y normativas internas, manteniendo actualizada la comunicación óptima para enfermería de todo el hospital.
+**Oficina de Recursos Humanos del Hospital Regional Río Grande:** Contribuyó con información relevante sobre políticas y normativas internas, manteniendo actualizada la comunicación óptima para enfermería de todo el hospital.
 
-Oficina de División de Docencia e Investigación: Proporcionará recursos educativos, materiales de capacitación y contenido relacionado con la investigación en el campo de la enfermería para enriquecer el contenido de la página web.
+**Oficina de División de Docencia e Investigación:** Proporcionará recursos educativos, materiales de capacitación y contenido relacionado con la investigación en el campo de la enfermería para enriquecer el contenido de la página web.
+
 
 <hr>
 
