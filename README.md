@@ -35,35 +35,30 @@ Oficina de División de Docencia e Investigación: Proporcionará recursos educa
 ### Tecnologías que Utilizo en éste proyecto 📚
 
 
-<style>
-  .logo-container {
-    margin-right: 20px;
-  }
-</style>
-
 <div align="center">
-  <div class="logo-container">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" alt="HTML5" width="8%">
-  </div>
-  <div class="logo-container">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114932/Portfolio/soft%20skills/css_ega4yd.svg" alt="CSS" width="8%">
-  </div>
-  <div class="logo-container">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" alt="Figma" width="5%">
-  </div>
-  <div class="logo-container">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114933/Portfolio/soft%20skills/bs_a824sk.svg" alt="Bootstrap" width="8%">
-  </div>
-  <div class="logo-container">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114928/Portfolio/soft%20skills/nodejs_jtdybu.svg" alt="Node.js" width="8%">
-  </div>
-  <div class="logo-container">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114929/Portfolio/soft%20skills/js_dhfsyl.svg" alt="JavaScript" width="8%">
-  </div>
-  <div class="logo-container">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114926/Portfolio/soft%20skills/react_fafq9u.svg" alt="React" width="8%">
-  </div>
+  <a href="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" class="logo-link">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" alt="HTML5" width="8%" class="logo">
+  </a>
+  <a href="https://res.cloudinary.com/nursingstaff/image/upload/v1718114932/Portfolio/soft%20skills/css_ega4yd.svg" class="logo-link">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114932/Portfolio/soft%20skills/css_ega4yd.svg" alt="CSS" width="8%" class="logo">
+  </a>
+  <a href="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" class="logo-link">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" alt="Figma" width="5%" class="logo">
+  </a>
+  <a href="https://res.cloudinary.com/nursingstaff/image/upload/v1718114933/Portfolio/soft%20skills/bs_a824sk.svg" class="logo-link">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114933/Portfolio/soft%20skills/bs_a824sk.svg" alt="Bootstrap" width="8%" class="logo">
+  </a>
+  <a href="https://res.cloudinary.com/nursingstaff/image/upload/v1718114928/Portfolio/soft%20skills/nodejs_jtdybu.svg" class="logo-link">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114928/Portfolio/soft%20skills/nodejs_jtdybu.svg" alt="Node.js" width="8%" class="logo">
+  </a>
+  <a href="https://res.cloudinary.com/nursingstaff/image/upload/v1718114929/Portfolio/soft%20skills/js_dhfsyl.svg" class="logo-link">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114929/Portfolio/soft%20skills/js_dhfsyl.svg" alt="JavaScript" width="8%" class="logo">
+  </a>
+  <a href="https://res.cloudinary.com/nursingstaff/image/upload/v1718114926/Portfolio/soft%20skills/react_fafq9u.svg" class="logo-link">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114926/Portfolio/soft%20skills/react_fafq9u.svg" alt="React" width="8%" class="logo">
+  </a>
 </div>
+
 
 
 <hr>
