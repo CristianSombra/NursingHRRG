@@ -1,6 +1,8 @@
 <div align="center" >
 
-<img  style="margin-top: 20px; margin-bottom: 20px;" src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114072/nursingHRRG/assets/LogoDepartamento_fondo_blanco_x11bhh.png" alt="Ejemplo de imagen" width="50%">
+<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114072/nursingHRRG/assets/LogoDepartamento_fondo_blanco_x11bhh.png" alt="Logo del Departamento de Enfermería" width="50%">
+</div>
 <div>
 <p align="center">Sitio Oficial del Departamento de Enfermería, Hospital Regional Rio Grande.</p>
 <p align="center">Ciudad de Rio Grande, Provincia de Tierra del Fuego.</p>
