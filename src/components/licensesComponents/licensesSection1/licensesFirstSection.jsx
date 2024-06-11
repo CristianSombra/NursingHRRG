@@ -118,7 +118,7 @@ const LicensesFirstSection = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia artículo 14H</h4>
-                    <p className="mb-4">Esta licencia se puede tomar dentro del año en curso, aplica un descuento que se refleja en el recibo de sueldo, son <strong>7 anuales</strong>.</p>
+                    <p className="mb-4">Esta licencia se puede tomar dentro del año en curso, aplica un descuento que se refleja en el recibo de sueldo, son <strong>6 anuales</strong>.</p>
                     <div className="text-center text-md-center mt-3 mb-5">
                         <a href={pdfPath + "14H.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
                     </div>
