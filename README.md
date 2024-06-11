@@ -6,7 +6,7 @@
 <p align="center">Ciudad de Rio Grande, Provincia de Tierra del Fuego.</p>
 
 <p align="center">
-  <a href="https://enfermeriahrrg.com.ar/" target="_blank">Ingresar</a>
+  <a href="https://enfermeriahrrg.com.ar/" href="_blank">Ingresar</a>
 </p>
 
 
