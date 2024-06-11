@@ -35,13 +35,13 @@ Oficina de División de Docencia e Investigación: Proporcionará recursos educa
 ### Tecnologías que Utilizo en éste proyecto 📚
 
 <div align="center">
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" alt="Figma" width="5%">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" alt="Figma" width="7%">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" alt="HTML5" width="8%">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" alt="HTML5" width="7%">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114932/Portfolio/soft%20skills/css_ega4yd.svg" alt="CSS" width="8%">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114932/Portfolio/soft%20skills/css_ega4yd.svg" alt="CSS" width="7%">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114933/Portfolio/soft%20skills/bs_a824sk.svg" alt="Bootstrap" width="8%">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114933/Portfolio/soft%20skills/bs_a824sk.svg" alt="Bootstrap" width="10%">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114928/Portfolio/soft%20skills/nodejs_jtdybu.svg" alt="Node.js" width="8%">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
