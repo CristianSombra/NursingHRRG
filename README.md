@@ -33,7 +33,7 @@ Contenido desarrollado en colaboración con las siguientes oficinas:
 
 <hr>
 
-### Tecnologías que Utilizo en éste proyecto 📚
+### Tecnologías que utilizo en éste proyecto 📚
 
 <br><br>
 <div align="center">
