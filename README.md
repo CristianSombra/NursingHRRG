@@ -1,4 +1,4 @@
-<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114072/nursingHRRG/assets/LogoDepartamento_fondo_blanco_x11bhh.png" alt="Ejemplo de imagen" width="100%">
+<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114072/nursingHRRG/assets/LogoDepartamento_fondo_blanco_x11bhh.png" alt="Ejemplo de imagen" width="50%">
 
 
 <p align="center">Sitio Oficial del Departamento de Enfermería, Hospital Regional Rio Grande.</p>
@@ -40,13 +40,13 @@ Oficina de División de Docencia e Investigación: Proporcionará recursos educa
 
 
 <div align="center">
-<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" alt="Ejemplo de imagen" width="50%">
-<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114932/Portfolio/soft%20skills/css_ega4yd.svg" alt="Ejemplo de imagen" width="50%">
-<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" alt="Ejemplo de imagen" width="50%">
-<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114933/Portfolio/soft%20skills/bs_a824sk.svg" alt="Ejemplo de imagen" width="50%">
-<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114928/Portfolio/soft%20skills/nodejs_jtdybu.svg" alt="Ejemplo de imagen" width="50%">
-<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114929/Portfolio/soft%20skills/js_dhfsyl.svg" alt="Ejemplo de imagen" width="50%">
-<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114926/Portfolio/soft%20skills/react_fafq9u.svg" alt="Ejemplo de imagen" width="50%">
+<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" alt="Ejemplo de imagen" width="10%">
+<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114932/Portfolio/soft%20skills/css_ega4yd.svg" alt="Ejemplo de imagen" width="10%">
+<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" alt="Ejemplo de imagen" width="10%">
+<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114933/Portfolio/soft%20skills/bs_a824sk.svg" alt="Ejemplo de imagen" width="10%">
+<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114928/Portfolio/soft%20skills/nodejs_jtdybu.svg" alt="Ejemplo de imagen" width="10%">
+<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114929/Portfolio/soft%20skills/js_dhfsyl.svg" alt="Ejemplo de imagen" width="10%">
+<img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114926/Portfolio/soft%20skills/react_fafq9u.svg" alt="Ejemplo de imagen" width="10%">
 </div>
 
 <hr>
