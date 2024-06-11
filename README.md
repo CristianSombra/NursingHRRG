@@ -6,19 +6,8 @@
 <p align="center">Ciudad de Rio Grande, Provincia de Tierra del Fuego.</p>
 
 <p align="center">
-  <a href="https://enfermeriahrrg.com.ar/" id="ingresarLink">Ingresar</a>
+  <a href="https://enfermeriahrrg.com.ar/">Ingresar</a>
 </p>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var ingresarLink = document.getElementById("ingresarLink");
-  ingresarLink.addEventListener("click", function(event) {
-    event.preventDefault(); // Evita que el enlace se abra inmediatamente
-    window.open(ingresarLink.getAttribute("href"), "_blank"); // Abre el enlace en una nueva pestaña
-  });
-});
-</script>
-
 
 
 </div>
