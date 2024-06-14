@@ -25,7 +25,7 @@ const LicensesFirstSection = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia especial verano</h4>
-                    <p className="mb-4">Se puede tomar desde diciembre a diciembre de cada año. Se debe solicitar al Jefe del servicio con <strong>15 días de anticipación</strong>.</p>
+                    <p className="mb-4">Se puede tomar <strong>hasta el 31/09/24</strong>. Se debe solicitar al Jefe del servicio con <strong>15 días de anticipación</strong>.</p>
                     <div className="text-center text-md-center mt-3 mb-5">
                         <a href={pdfPath + "LAR.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
                     </div>
@@ -56,7 +56,7 @@ const LicensesFirstSection = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <h4 className="fw-bold mt-3">Licencia especial invierno</h4>
-                    <p className="mb-4">Se puede tomar desde junio a noviembre de cada año. Se debe solicitar al jefe del servicio con <strong>un semana de anticipación</strong>.</p>
+                    <p className="mb-4">Se puede tomar desde el <strong>01/06/2024</strong> hasta el <strong>31/10/2024</strong>. Se debe solicitar al jefe del servicio con <strong>un semana de anticipación</strong>.</p>
                     <div className="text-center text-md-center mt-3 mb-5">
                         <a href={pdfPath + "LEI.pdf"} target="_blank" rel="noreferrer" className="btn-custom">Descargar formulario</a>
                     </div>

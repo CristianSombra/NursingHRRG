@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 /* Notificación para las LAR */
 export const ModalQuestionLAR = () => {
@@ -24,8 +25,14 @@ export const ModalQuestionLAR = () => {
                                 ✅ Podrá ser utilizada durante todo el año.
                             </h5>
                             <h5 className="my-3">
-                                🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable de la Licencia Especial Invierno <strong>(LEI)</strong>.
+                                🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable de la LAR, la Licencia Especial Invierno <strong>(LEI)</strong>.
                             </h5>
+                            <p className="text-muted mb-4">Si tienes más dudas podés verificar en la sección de preguntas frecuentes de INICIO.</p>
+                            <div className="my-3">
+                                <Link to="/home" className="btn-custom-secondary">
+                                    Ir a Inicio
+                                </Link>
+                            </div>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
@@ -64,6 +71,12 @@ export const ModalQuestionLEI = () => {
                             <h5 className="my-3">
                                 🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable a la LEI por razones particulares <strong>(art. 14F y 14H)</strong>, ni Licencia anual reglamentaria <strong>(LAR)</strong>.
                             </h5>
+                            <p className="text-muted mb-4">Si tienes más dudas podés verificar en la sección de preguntas frecuentes de INICIO.</p>
+                            <div className="my-3">
+                                <Link to="/home" className="btn-custom-secondary">
+                                    Ir a Inicio
+                                </Link>
+                            </div>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
