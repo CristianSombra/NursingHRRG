@@ -14,6 +14,9 @@ const LicensesSecondSection = () => {
                 <div className="text-center col-12 col-md-10">
                     <h4 className="fw-bold my-3">Otras licencias descargables</h4>
                     <p className="my-3">En la siguiente tabla podrás acceder a otras licencias o documentos para descargar en formato PDF, para completar y enviar por <strong>GEN</strong> o <strong>ZIMBRA</strong> según corresponda.</p>
+                    <p className="my-3">Los <strong>permisos de salida</strong> y los <strong>cambios de turno</strong> deben solicitarse al jefe inmediato para ser autorizados.</p>
+                    <p className="text-muted fst-italic">Si tienes más dudas podés verificar en la sección de preguntas frecuentes en la página INICIO.</p>
+
                 </div>
                 <div className="col-12 col-md-10 col-lg-8 my-3">
                     <div className="table-responsive">
@@ -33,7 +36,7 @@ const LicensesSecondSection = () => {
                                             initial={{y: 0}}
                                             whileHover={{y: -10}}
                                             transition={{duration: 0.2, delay: 0.1}}>
-                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                <a href={pdfPath + "Permiso de salida.pdf"} target="_blank" rel="noreferrer">
                                                     <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
                                                 </a>
                                         </motion.div>
@@ -46,7 +49,7 @@ const LicensesSecondSection = () => {
                                             initial={{y: 0}}
                                             whileHover={{y: -10}}
                                             transition={{duration: 0.2, delay: 0.1}}>
-                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                <a href={pdfPath + "Cambio de turno.pdf"} target="_blank" rel="noreferrer">
                                                     <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
                                                 </a>
                                         </motion.div>
