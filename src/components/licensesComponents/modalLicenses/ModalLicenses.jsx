@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 /* Notificación para las LAR */
 export const ModalQuestionLAR = () => {
@@ -27,12 +26,7 @@ export const ModalQuestionLAR = () => {
                             <h5 className="my-3">
                                 🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable de la LAR, la Licencia Especial Invierno <strong>(LEI)</strong>.
                             </h5>
-                            <p className="text-muted mb-4">Si tienes más dudas podés verificar en la sección de preguntas frecuentes de INICIO.</p>
-                            <div className="my-3">
-                                <Link to="/home" className="btn-custom-secondary">
-                                    Ir a Inicio
-                                </Link>
-                            </div>
+                            <p className="text-muted fst-italic">Si tienes más dudas podés verificar en la sección de preguntas frecuentes en la página INICIO.</p>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
@@ -71,12 +65,7 @@ export const ModalQuestionLEI = () => {
                             <h5 className="my-3">
                                 🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable a la LEI por razones particulares <strong>(art. 14F y 14H)</strong>, ni Licencia anual reglamentaria <strong>(LAR)</strong>.
                             </h5>
-                            <p className="text-muted mb-4">Si tienes más dudas podés verificar en la sección de preguntas frecuentes de INICIO.</p>
-                            <div className="my-3">
-                                <Link to="/home" className="btn-custom-secondary">
-                                    Ir a Inicio
-                                </Link>
-                            </div>
+                            <p className="text-muted fst-italic">Si tienes más dudas podés verificar en la sección de preguntas frecuentes en la página INICIO.</p>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
@@ -112,6 +101,7 @@ export const Modal14F = () => {
                             <h5 className="my-3">
                                 👉 Pueden ser dadas de baja por <strong>razones de servicio.</strong>
                             </h5>
+                            <p className="text-muted fst-italic">Si tienes más dudas podés verificar en la sección de preguntas frecuentes en la página INICIO.</p>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
@@ -147,6 +137,7 @@ export const Modal14H = () => {
                             <h5 className="my-3">
                                 👉 Pueden ser dadas de baja por <strong>razones de servicio.</strong>
                             </h5>
+                            <p className="text-muted fst-italic">Si tienes más dudas podés verificar en la sección de preguntas frecuentes en la página INICIO.</p>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom" data-bs-dismiss="modal">Volver</button>
