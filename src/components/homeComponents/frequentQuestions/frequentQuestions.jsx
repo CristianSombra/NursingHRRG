@@ -36,13 +36,13 @@ const FrequentQuestions = () => {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <p className="mt-3">La <strong>Licencia Anual Reglamentaria</strong> (LAR) deben solicitarse con 15 días de anticipación independientemente de la <strong>fracción</strong> que se requiera. En caso de excedido los 15 días el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
+                            <p className="mt-3">La <strong>Licencia Anual Reglamentaria</strong> (LAR) deben solicitarse con 15 días de anticipación independientemente de la <strong>fracción</strong> que se requiera. En caso de excedido los 15 días el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>. Entre <strong>fracción y fracción</strong> de la licencia deben pasar 10 días trabajados efectivamente.
                             </p>
                             <p className="my-3">
                                 ✅ Podrá ser utilizada durante todo el año.
                             </p>
                             <p className="my-3 mb-4">
-                                🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable de la Licencia Especial Invierno <strong>(LEI)</strong>.
+                                🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable de la LAR, la Licencia Especial Invierno <strong>(LEI)</strong>.
                             </p>
                             <hr />
                             <p className="mt-3">Las <strong>Licencia Especial Invierno</strong> (LEI) deben solicitarse con una semana de anticipación. En caso de excedido la semana el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.</p>
